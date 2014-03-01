@@ -1,0 +1,2 @@
+curl -s -XPOST taxr.ca:9200/data/MinistryData/ --data-binary @requests; echo
+
