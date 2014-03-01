@@ -1,0 +1,23 @@
+{
+    "MinistryData" : {
+        "properties" : {
+            "SO1" : {"type" : "integer", "store" : false },
+            "SO2" : {"type" : "integer", "store" : false },
+            "SO3" : {"type" : "integer", "store" : false },
+            "SO4" : {"type" : "integer", "store" : false },
+            "SO5" : {"type" : "integer", "store" : false },
+            "SO6" : {"type" : "integer", "store" : false },
+            "SO7" : {"type" : "integer", "store" : false },
+            "SO8" : {"type" : "integer", "store" : false },
+            "SO9" : {"type" : "integer", "store" : false },
+            "S10" : {"type" : "integer", "store" : false },
+            "S11" : {"type" : "integer", "store" : false },
+            "S12" : {"type" : "integer", "store" : false },
+            "ERev" : {"type" : "integer", "store" : false },
+            "IRev" : {"type" : "integer", "store" : false },
+            "DEPT_EN_DESC" : {"type" : "string", "store" : true },
+            "FSCL_YR" : {"type" : "string", "store" : true },
+            "MINE" : {"type" : "string", "store" : true }
+        }
+    }
+}

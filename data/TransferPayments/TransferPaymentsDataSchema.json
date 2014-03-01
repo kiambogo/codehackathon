@@ -1,0 +1,16 @@
+    {
+    "TransferData" : {
+        "properties" : {
+            "DEPT_EN_DESC" : {"type" : "string", "store" : true },
+            "MINE" : {"type" : "string", "store" : true },
+            "MINC" : {"type" : "string", "store" : true },
+            "AGRG_PYMT_AMT" : {"type" : "integer", "store" : false },
+            "FSCL_YR" : {"type" : "string", "store" : true },
+            "PADN" : {"type" : "integer", "store" : false },
+            "TOT_CY_XPND_AMT" : {"type" : "integer", "store" : false },
+            "RCPNT_NML_EN_DESC" : {"type" : "string", "store" : true },
+            "DEPT_EN_DESC" : {"type" : "string", "store" : true }
+            }
+        }
+    }
+}
