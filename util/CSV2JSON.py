@@ -8,6 +8,7 @@ firstLine = f.readline().strip()
 firstLine = firstLine.split(',')
 reader = csv.DictReader( f, fieldnames = ( firstLine ) )
 for row in reader:
+	print '{"index": {}}'
 	print json.dumps(row)
 #out = json.dumps( [ row for row in reader ] )
 #print out
