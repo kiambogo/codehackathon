@@ -1,0 +1,16 @@
+{
+    "SpecialServicesData" : {
+        "properties" : {
+            "DEPT_EN_DESC" : {"type" : "string", "store" : true },
+            "MINE" : {"type" : "string", "store" : true },
+            "MINC" : {"type" : "string", "store" : true },
+            "AGRG_PYMT_AMT" : {"type" : "integer", "store" : false },
+            "FSCL_YR" : {"type" : "string", "store" : true },
+            "PRJCT_EN_DESC" : {"type" : "string", "store" : false },
+            "PADN" : {"type" : "integer", "store" : false },
+            "TOT_CY_XPND_AMT" : {"type" : "integer", "store" : false },
+            "ROBJ_EN_NM" : {"type" : "string", "store" : true },
+            "ROBJ_CD" : {"type" : "string", "store" : true },
+        }
+    }
+}
