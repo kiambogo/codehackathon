@@ -1,0 +1,272 @@
+{"index": {}}
+{"ERev": "-47405", "IRev": "-11759", "SO11": "0", "DEPT_EN_DESC": "Agriculture and Agri-Food Department ", "SO10": "1900532000", "FSCL_YR": "2012/2013", "MINE": "Agriculture and Agri-Food ", "SO1": "575028000", "SO3": "7799000", "SO2": "14573000", "SO5": "4924000", "SO4": "122657000", "SO7": "41070000", "SO6": "19317000", "SO9": "37448000", "SO8": "6283000", "SO12": "11092000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Dairy Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Agriculture and Agri-Food ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "4086000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Food Inspection Agency", "SO10": "40562000", "FSCL_YR": "2012/2013", "MINE": "Agriculture and Agri-Food ", "SO1": "575900000", "SO3": "1871000", "SO2": "19746000", "SO5": "10073000", "SO4": "75772000", "SO7": "18655000", "SO6": "12504000", "SO9": "24115000", "SO8": "0", "SO12": "2858000"}
+{"index": {}}
+{"ERev": "-45238", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Grain Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Agriculture and Agri-Food ", "SO1": "63858000", "SO3": "235000", "SO2": "3798000", "SO5": "5210000", "SO4": "2669000", "SO7": "756000", "SO6": "1345000", "SO9": "4501000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Atlantic Canada Opportunities Agency Department ", "SO10": "233185000", "FSCL_YR": "2012/2013", "MINE": "Atlantic Canada Opportunities Agency ", "SO1": "68347000", "SO3": "360000", "SO2": "3081000", "SO5": "2096000", "SO4": "8212000", "SO7": "325000", "SO6": "309000", "SO9": "686000", "SO8": "0", "SO12": "-939"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Enterprise Cape Breton Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Atlantic Canada Opportunities Agency ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "60667000"}
+{"index": {}}
+{"ERev": "-147718", "IRev": "-182573", "SO11": "0", "DEPT_EN_DESC": "Canada Revenue Agency", "SO10": "374921000", "FSCL_YR": "2012/2013", "MINE": "Canada Revenue Agency", "SO1": "3347811000", "SO3": "8865000", "SO2": "124946000", "SO5": "307364000", "SO4": "348088000", "SO7": "24143000", "SO6": "77487000", "SO9": "32813000", "SO8": "0", "SO12": "2321000"}
+{"index": {}}
+{"ERev": "-4423", "IRev": "-1979", "SO11": "0", "DEPT_EN_DESC": "Canadian Heritage Department", "SO10": "1042867000", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "177549000", "SO3": "8081000", "SO2": "2815000", "SO5": "2335000", "SO4": "15917000", "SO7": "1861000", "SO6": "940000", "SO9": "439000", "SO8": "0", "SO12": "1026000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada Council for the Arts", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "181368000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Broadcasting Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "1106519000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Museum for Human Rights", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "56936000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Museum of Civilization", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "64365000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Museum of Immigration at Pier 21", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "9976000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Museum of Nature", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "34370000"}
+{"index": {}}
+{"ERev": "-41724", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Radio-television and Telecommunications Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "45458000", "SO3": "1033000", "SO2": "1712000", "SO5": "647000", "SO4": "5365000", "SO7": "309000", "SO6": "706000", "SO9": "1221000", "SO8": "0", "SO12": "7000"}
+{"index": {}}
+{"ERev": "-252", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Library and Archives of Canada", "SO10": "35000", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "88727000", "SO3": "166000", "SO2": "860000", "SO5": "1839000", "SO4": "6033000", "SO7": "807000", "SO6": "901000", "SO9": "7590000", "SO8": "11926000", "SO12": "291000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Arts Centre Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "35601000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Battlefields Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "4140000", "SO3": "328000", "SO2": "127000", "SO5": "75000", "SO4": "798000", "SO7": "789000", "SO6": "517000", "SO9": "471000", "SO8": "143000", "SO12": "2235000"}
+{"index": {}}
+{"ERev": "-4144", "IRev": "-148", "SO11": "0", "DEPT_EN_DESC": "National Film Board", "SO10": "192000", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "41784000", "SO3": "1316000", "SO2": "3242000", "SO5": "8657000", "SO4": "12294000", "SO7": "879000", "SO6": "1236000", "SO9": "2707000", "SO8": "0", "SO12": "737000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Gallery of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "48831000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Museum of Science and Technology", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "31517000"}
+{"index": {}}
+{"ERev": "-9", "IRev": "-8569", "SO11": "0", "DEPT_EN_DESC": "Public Service Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "91246000", "SO3": "234000", "SO2": "655000", "SO5": "1969000", "SO4": "8878000", "SO7": "336000", "SO6": "102000", "SO9": "427000", "SO8": "0", "SO12": "461000"}
+{"index": {}}
+{"ERev": "0", "IRev": "-144", "SO11": "0", "DEPT_EN_DESC": "Public Service Labour Relations Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "9117000", "SO3": "83000", "SO2": "600000", "SO5": "561000", "SO4": "2777000", "SO7": "134000", "SO6": "31000", "SO9": "475000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Public Service Staffing Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "4156000", "SO3": "43000", "SO2": "144000", "SO5": "179000", "SO4": "568000", "SO7": "14000", "SO6": "1000", "SO9": "5000", "SO8": "0", "SO12": "-1"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Registry of the Public Servants Disclosure Protection Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "1153000", "SO3": "5000", "SO2": "20000", "SO5": "90000", "SO4": "264000", "SO7": "32000", "SO6": "53000", "SO9": "43000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Telefilm Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Canadian Heritage ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "102968000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Citizenship and Immigration Department", "SO10": "933202000", "FSCL_YR": "2012/2013", "MINE": "Citizenship and Immigration ", "SO1": "409245000", "SO3": "7354000", "SO2": "18544000", "SO5": "9922000", "SO4": "111446000", "SO7": "6235000", "SO6": "2869000", "SO9": "8484000", "SO8": "0", "SO12": "16025000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Immigration and Refugee Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Citizenship and Immigration ", "SO1": "101558000", "SO3": "565000", "SO2": "3160000", "SO5": "1471000", "SO4": "19758000", "SO7": "657000", "SO6": "3846000", "SO9": "3000000", "SO8": "0", "SO12": "243000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Economic Development Agency of Canada for the Regions of Quebec", "SO10": "247509000", "FSCL_YR": "2012/2013", "MINE": "Economic Development Agency of Canada for the Regions of Quebec", "SO1": "41954000", "SO3": "330000", "SO2": "705000", "SO5": "619000", "SO4": "4478000", "SO7": "162000", "SO6": "35000", "SO9": "596000", "SO8": "0", "SO12": "41000"}
+{"index": {}}
+{"ERev": "-41408", "IRev": "-24585", "SO11": "0", "DEPT_EN_DESC": "Environment Department", "SO10": "127684000", "FSCL_YR": "2012/2013", "MINE": "Environment ", "SO1": "625695000", "SO3": "3849000", "SO2": "36625000", "SO5": "24322000", "SO4": "122307000", "SO7": "37953000", "SO6": "18574000", "SO9": "48732000", "SO8": "1522000", "SO12": "8385000"}
+{"index": {}}
+{"ERev": "-2446", "IRev": "-357", "SO11": "0", "DEPT_EN_DESC": "Canadian Environmental Assessment Agency", "SO10": "2239000", "FSCL_YR": "2012/2013", "MINE": "Environment ", "SO1": "21298000", "SO3": "324000", "SO2": "1271000", "SO5": "316000", "SO4": "4733000", "SO7": "154000", "SO6": "3000", "SO9": "414000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Round Table on the Environment and the Economy", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Environment ", "SO1": "4850000", "SO3": "92000", "SO2": "93000", "SO5": "21000", "SO4": "368000", "SO7": "5000", "SO6": "1000", "SO9": "3000", "SO8": "0", "SO12": "10000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Parks Canada Agency", "SO10": "13737000", "FSCL_YR": "2012/2013", "MINE": "Environment ", "SO1": "387926000", "SO3": "8844000", "SO2": "12719000", "SO5": "14390000", "SO4": "68780000", "SO7": "36442000", "SO6": "52377000", "SO9": "15475000", "SO8": "2351000", "SO12": "17507000"}
+{"index": {}}
+{"ERev": "0", "IRev": "-138", "SO11": "25982207000", "DEPT_EN_DESC": "Finance Department", "SO10": "57358967000", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "92443000", "SO3": "16069000", "SO2": "2780000", "SO5": "1900000", "SO4": "16819000", "SO7": "131599000", "SO6": "45000", "SO9": "1059000", "SO8": "0", "SO12": "36851000"}
+{"index": {}}
+{"ERev": "-817", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Auditor General", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "77308000", "SO3": "622000", "SO2": "3749000", "SO5": "1075000", "SO4": "4949000", "SO7": "322000", "SO6": "189000", "SO9": "814000", "SO8": "0", "SO12": "-1"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian International Trade Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "8701000", "SO3": "33000", "SO2": "204000", "SO5": "124000", "SO4": "554000", "SO7": "74000", "SO6": "1122000", "SO9": "691000", "SO8": "0", "SO12": "-2"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Financial Consumer Agency of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "7750000", "SO3": "364000", "SO2": "400000", "SO5": "874000", "SO4": "3184000", "SO7": "56000", "SO6": "1000", "SO9": "203000", "SO8": "0", "SO12": "59000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Financial Transactions and Reports Analysis Centre of Canada ", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "37838000", "SO3": "185000", "SO2": "1139000", "SO5": "6246000", "SO4": "4165000", "SO7": "452000", "SO6": "1682000", "SO9": "1985000", "SO8": "0", "SO12": "302000"}
+{"index": {}}
+{"ERev": "-123309", "IRev": "-5644", "SO11": "0", "DEPT_EN_DESC": "Office of the Superintendent of Financial Institutions", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "94657000", "SO3": "1052000", "SO2": "4365000", "SO5": "9070000", "SO4": "12461000", "SO7": "455000", "SO6": "352000", "SO9": "7625000", "SO8": "1558000", "SO12": "-2955"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "PPP Canada Inc.", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Finance ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "287450000"}
+{"index": {}}
+{"ERev": "-41429", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Fisheries and Oceans", "SO10": "88186000", "FSCL_YR": "2012/2013", "MINE": "Fisheries and Oceans", "SO1": "987298000", "SO3": "2326000", "SO2": "58867000", "SO5": "16286000", "SO4": "213341000", "SO7": "102527000", "SO6": "159674000", "SO9": "151851000", "SO8": "19742000", "SO12": "18436000"}
+{"index": {}}
+{"ERev": "-349031", "IRev": "-6968", "SO11": "0", "DEPT_EN_DESC": "Foreign Affairs and International Trade Department", "SO10": "672515000", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "1114315000", "SO3": "12791000", "SO2": "143792000", "SO5": "200677000", "SO4": "267665000", "SO7": "77241000", "SO6": "31955000", "SO9": "50479000", "SO8": "174610000", "SO12": "4838000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Commercial Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "15482000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian International Development Agency", "SO10": "3132702000", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "192093000", "SO3": "71000", "SO2": "6973000", "SO5": "2368000", "SO4": "15081000", "SO7": "861000", "SO6": "2935000", "SO9": "546000", "SO8": "0", "SO12": "55927000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Export Development Canada (Canada Account)", "SO10": "224761000", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "6320000", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "112000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "International Development Research Centre", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "156223000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "International Joint Commission (Canadian Section)", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "3740000", "SO3": "23000", "SO2": "512000", "SO5": "403000", "SO4": "1545000", "SO7": "42000", "SO6": "19000", "SO9": "174000", "SO8": "0", "SO12": "49000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Capital Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Foreign Affairs and International Trade ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "108834000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Governor General", "SO10": "537000", "FSCL_YR": "2012/2013", "MINE": "Governor General", "SO1": "15007000", "SO3": "398000", "SO2": "1079000", "SO5": "358000", "SO4": "1782000", "SO7": "747000", "SO6": "30000", "SO9": "755000", "SO8": "0", "SO12": "136000"}
+{"index": {}}
+{"ERev": "-93076", "IRev": "-15126", "SO11": "0", "DEPT_EN_DESC": "Health Department", "SO10": "1632903000", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "994098000", "SO3": "18177000", "SO2": "231564000", "SO5": "19613000", "SO4": "492558000", "SO7": "458935000", "SO6": "25778000", "SO9": "43123000", "SO8": "9124000", "SO12": "3487000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Assisted Human Reproduction Agency of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "896000", "SO3": "14000", "SO2": "98000", "SO5": "12000", "SO4": "457000", "SO7": "6000", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Institutes of Health Research", "SO10": "940773000", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "44924000", "SO3": "1117000", "SO2": "3797000", "SO5": "1009000", "SO4": "3618000", "SO7": "306000", "SO6": "112000", "SO9": "956000", "SO8": "0", "SO12": "441000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Northern Economic Development Agency", "SO10": "38366000", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "9557000", "SO3": "86000", "SO2": "1250000", "SO5": "1148000", "SO4": "1757000", "SO7": "158000", "SO6": "1000", "SO9": "62000", "SO8": "0", "SO12": "4000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Hazardous Materials Information Review Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "4139000", "SO3": "23000", "SO2": "58000", "SO5": "16000", "SO4": "552000", "SO7": "87000", "SO6": "3000", "SO9": "7000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Patented Medicine Prices Review Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "6579000", "SO3": "48000", "SO2": "159000", "SO5": "116000", "SO4": "856000", "SO7": "175000", "SO6": "16000", "SO9": "106000", "SO8": "0", "SO12": "2000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Public Health Agency of Canada", "SO10": "201062000", "FSCL_YR": "2012/2013", "MINE": "Health ", "SO1": "240626000", "SO3": "12881000", "SO2": "8673000", "SO5": "4954000", "SO4": "99721000", "SO7": "25668000", "SO6": "4778000", "SO9": "12394000", "SO8": "6837000", "SO12": "2062000"}
+{"index": {}}
+{"ERev": "-527954", "IRev": "-1465675", "SO11": "0", "DEPT_EN_DESC": "Human Resources and Skills Development Department", "SO10": "47169332000", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "1944508000", "SO3": "67810000", "SO2": "67013000", "SO5": "241266000", "SO4": "640728000", "SO7": "8919000", "SO6": "7942000", "SO9": "19495000", "SO8": "0", "SO12": "261581000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada Industrial Relations Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "10340000", "SO3": "31000", "SO2": "704000", "SO5": "172000", "SO4": "755000", "SO7": "166000", "SO6": "95000", "SO9": "455000", "SO8": "0", "SO12": "68000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada Mortgage and Housing Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "2086398000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Artists and Producers Professional Relations Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "1002000", "SO3": "12000", "SO2": "39000", "SO5": "11000", "SO4": "159000", "SO7": "12000", "SO6": "1000", "SO9": "0", "SO8": "0", "SO12": "278000"}
+{"index": {}}
+{"ERev": "-3514", "IRev": "-516", "SO11": "0", "DEPT_EN_DESC": "Canadian Centre for Occupational Health and Safety", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "8022000", "SO3": "72000", "SO2": "139000", "SO5": "49000", "SO4": "966000", "SO7": "42000", "SO6": "110000", "SO9": "87000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Co-ordinator, Status of Women", "SO10": "18887000", "FSCL_YR": "2012/2013", "MINE": "Human Resources and Skills Development ", "SO1": "9262000", "SO3": "298000", "SO2": "391000", "SO5": "125000", "SO4": "612000", "SO7": "30000", "SO6": "9000", "SO9": "113000", "SO8": "0", "SO12": "1000"}
+{"index": {}}
+{"ERev": "0", "IRev": "-743", "SO11": "0", "DEPT_EN_DESC": "Indian Affairs and Northern Development Department", "SO10": "6729717000", "FSCL_YR": "2012/2013", "MINE": "Indian Affairs and Northern Development ", "SO1": "506595000", "SO3": "14451000", "SO2": "31138000", "SO5": "13675000", "SO4": "291192000", "SO7": "6253000", "SO6": "2581000", "SO9": "10244000", "SO8": "5503000", "SO12": "484536000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Polar Commission", "SO10": "10000", "FSCL_YR": "2012/2013", "MINE": "Indian Affairs and Northern Development ", "SO1": "763000", "SO3": "35000", "SO2": "191000", "SO5": "132000", "SO4": "164000", "SO7": "10000", "SO6": "0", "SO9": "13000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "First Nations Statistical Institute", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Indian Affairs and Northern Development ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "2028000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Indian Residential Schools Truth and Reconciliation Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Indian Affairs and Northern Development ", "SO1": "4898000", "SO3": "1945000", "SO2": "995000", "SO5": "850000", "SO4": "3053000", "SO7": "26000", "SO6": "1000", "SO9": "41000", "SO8": "0", "SO12": "9000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Registry of the Specific Claims Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Indian Affairs and Northern Development ", "SO1": "1001000", "SO3": "16000", "SO2": "296000", "SO5": "424000", "SO4": "275000", "SO7": "16000", "SO6": "13000", "SO9": "80000", "SO8": "17000", "SO12": "0"}
+{"index": {}}
+{"ERev": "-204721", "IRev": "-14669", "SO11": "0", "DEPT_EN_DESC": "Industry Department", "SO10": "881986000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "513170000", "SO3": "3463000", "SO2": "12411000", "SO5": "12988000", "SO4": "92826000", "SO7": "5896000", "SO6": "5738000", "SO9": "16443000", "SO8": "314000", "SO12": "31738000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Space Agency", "SO10": "30669000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "78523000", "SO3": "1938000", "SO2": "4518000", "SO5": "4109000", "SO4": "115249000", "SO7": "3444000", "SO6": "3062000", "SO9": "75385000", "SO8": "0", "SO12": "3348000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Tourism Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "71496000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Copyright Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "1755000", "SO3": "116000", "SO2": "166000", "SO5": "72000", "SO4": "355000", "SO7": "37000", "SO6": "2000", "SO9": "6000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Federal Economic Development Agency for Southern Ontario", "SO10": "212041000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "22107000", "SO3": "311000", "SO2": "1368000", "SO5": "2024000", "SO4": "3399000", "SO7": "125000", "SO6": "21000", "SO9": "599000", "SO8": "109000", "SO12": "-383"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Research Council of Canada", "SO10": "253240000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "401848000", "SO3": "1813000", "SO2": "13031000", "SO5": "4372000", "SO4": "33664000", "SO7": "46174000", "SO6": "19711000", "SO9": "42025000", "SO8": "21953000", "SO12": "-33026"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Natural Sciences and Engineering Research Council", "SO10": "1022729000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "40672000", "SO3": "575000", "SO2": "3155000", "SO5": "948000", "SO4": "4177000", "SO7": "281000", "SO6": "581000", "SO9": "2850000", "SO8": "0", "SO12": "13000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Registry of the Competition Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "1065000", "SO3": "41000", "SO2": "183000", "SO5": "10000", "SO4": "337000", "SO7": "46000", "SO6": "1000", "SO9": "54000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Social Sciences and Humanities Research Council", "SO10": "668651000", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "21837000", "SO3": "366000", "SO2": "1144000", "SO5": "492000", "SO4": "2346000", "SO7": "82000", "SO6": "255000", "SO9": "1260000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Standards Council of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "10319000"}
+{"index": {}}
+{"ERev": "-14535", "IRev": "-76644", "SO11": "0", "DEPT_EN_DESC": "Statistics Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Industry ", "SO1": "556301000", "SO3": "604000", "SO2": "14384000", "SO5": "12587000", "SO4": "17139000", "SO7": "4998000", "SO6": "1047000", "SO9": "3946000", "SO8": "0", "SO12": "64000"}
+{"index": {}}
+{"ERev": "-850", "IRev": "-294612", "SO11": "0", "DEPT_EN_DESC": "Justice Department", "SO10": "384330000", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "569597000", "SO3": "3091000", "SO2": "9958000", "SO5": "6161000", "SO4": "37816000", "SO7": "4366000", "SO6": "4374000", "SO9": "8194000", "SO8": "0", "SO12": "1558000"}
+{"index": {}}
+{"ERev": "0", "IRev": "-1034", "SO11": "0", "DEPT_EN_DESC": "Canadian Human Rights Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "20979000", "SO3": "289000", "SO2": "908000", "SO5": "204000", "SO4": "2216000", "SO7": "143000", "SO6": "35000", "SO9": "635000", "SO8": "6000", "SO12": "2000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Human Rights Tribunal", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "2609000", "SO3": "61000", "SO2": "218000", "SO5": "57000", "SO4": "1203000", "SO7": "21000", "SO6": "31000", "SO9": "20000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "-160", "SO11": "0", "DEPT_EN_DESC": "Commissioner for Federal Judicial Affairs", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "444739000", "SO3": "72000", "SO2": "29478000", "SO5": "187000", "SO4": "4922000", "SO7": "119000", "SO6": "129000", "SO9": "347000", "SO8": "0", "SO12": "5270000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Courts Administration Service", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "49618000", "SO3": "417000", "SO2": "2434000", "SO5": "1405000", "SO4": "8244000", "SO7": "1753000", "SO6": "245000", "SO9": "343000", "SO8": "1144000", "SO12": "-19"}
+{"index": {}}
+{"ERev": "-113", "IRev": "-14526", "SO11": "0", "DEPT_EN_DESC": "Office of the Director of Public Prosecutions", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "112183000", "SO3": "746000", "SO2": "7214000", "SO5": "1415000", "SO4": "41915000", "SO7": "1517000", "SO6": "2431000", "SO9": "2250000", "SO8": "0", "SO12": "8335000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Offices of the Information and Privacy Commissioners of Canada", "SO10": "500000", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "27904000", "SO3": "556000", "SO2": "879000", "SO5": "729000", "SO4": "5741000", "SO7": "284000", "SO6": "148000", "SO9": "1088000", "SO8": "0", "SO12": "2000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Supreme Court of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Justice ", "SO1": "25334000", "SO3": "153000", "SO2": "1176000", "SO5": "647000", "SO4": "1632000", "SO7": "1211000", "SO6": "209000", "SO9": "528000", "SO8": "0", "SO12": "330000"}
+{"index": {}}
+{"ERev": "-395139", "IRev": "-33929", "SO11": "0", "DEPT_EN_DESC": "National Defence Department", "SO10": "181705000", "FSCL_YR": "2012/2013", "MINE": "National Defence ", "SO1": "10438096000", "SO3": "13666000", "SO2": "768058000", "SO5": "383972000", "SO4": "2982038000", "SO7": "1017831000", "SO6": "1465091000", "SO9": "2434609000", "SO8": "500631000", "SO12": "221561000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Forces Grievance Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "National Defence ", "SO1": "4071000", "SO3": "56000", "SO2": "85000", "SO5": "605000", "SO4": "794000", "SO7": "16000", "SO6": "23000", "SO9": "199000", "SO8": "0", "SO12": "1000"}
+{"index": {}}
+{"ERev": "-15", "IRev": "-611", "SO11": "0", "DEPT_EN_DESC": "Communications Security Establishment", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "National Defence ", "SO1": "227552000", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "187569000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Military Police Complaints Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "National Defence ", "SO1": "2222000", "SO3": "24000", "SO2": "250000", "SO5": "425000", "SO4": "2224000", "SO7": "59000", "SO6": "2000", "SO9": "50000", "SO8": "0", "SO12": "45000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Communications Security Establishment Commissioner", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "National Defence ", "SO1": "908000", "SO3": "59000", "SO2": "16000", "SO5": "218000", "SO4": "305000", "SO7": "10000", "SO6": "2000", "SO9": "32000", "SO8": "736000", "SO12": "0"}
+{"index": {}}
+{"ERev": "-22920", "IRev": "-3049", "SO11": "0", "DEPT_EN_DESC": "Natural Resources Department", "SO10": "1108421000", "FSCL_YR": "2012/2013", "MINE": "Natural Resources ", "SO1": "456773000", "SO3": "14171000", "SO2": "16978000", "SO5": "18887000", "SO4": "268026000", "SO7": "26128000", "SO6": "4985000", "SO9": "30542000", "SO8": "9418000", "SO12": "38451000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Atomic Energy of Canada Limited", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Natural Resources ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "551843000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Nuclear Safety Commission", "SO10": "1452000", "FSCL_YR": "2012/2013", "MINE": "Natural Resources ", "SO1": "104384000", "SO3": "1111000", "SO2": "4761000", "SO5": "4240000", "SO4": "17431000", "SO7": "803000", "SO6": "2098000", "SO9": "3418000", "SO8": "0", "SO12": "1000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Energy Board", "SO10": "123000", "FSCL_YR": "2012/2013", "MINE": "Natural Resources ", "SO1": "52796000", "SO3": "891000", "SO2": "3907000", "SO5": "672000", "SO4": "8205000", "SO7": "493000", "SO6": "660000", "SO9": "1778000", "SO8": "0", "SO12": "21000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Northern Pipeline Agency", "SO10": "136000", "FSCL_YR": "2012/2013", "MINE": "Natural Resources ", "SO1": "1332000", "SO3": "1000", "SO2": "68000", "SO5": "17000", "SO4": "349000", "SO7": "7000", "SO6": "0", "SO9": "10000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "The Senate", "SO10": "419000", "FSCL_YR": "2012/2013", "MINE": "Parliament ", "SO1": "70398000", "SO3": "609000", "SO2": "10792000", "SO5": "849000", "SO4": "3549000", "SO7": "728000", "SO6": "549000", "SO9": "939000", "SO8": "0", "SO12": "50000"}
+{"index": {}}
+{"ERev": "-985", "IRev": "18000", "SO11": "0", "DEPT_EN_DESC": "House of Commons", "SO10": "870000", "FSCL_YR": "2012/2013", "MINE": "Parliament ", "SO1": "329085000", "SO3": "6417000", "SO2": "41948000", "SO5": "10555000", "SO4": "15583000", "SO7": "7204000", "SO6": "5765000", "SO9": "13418000", "SO8": "0", "SO12": "59000"}
+{"index": {}}
+{"ERev": "-703", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Library of Parliament", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Parliament ", "SO1": "37696000", "SO3": "528000", "SO2": "602000", "SO5": "621000", "SO4": "2584000", "SO7": "2350000", "SO6": "47000", "SO9": "733000", "SO8": "0", "SO12": "-30"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Conflict of Interest and Ethics Commissioner", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Parliament ", "SO1": "5345000", "SO3": "6000", "SO2": "41000", "SO5": "53000", "SO4": "602000", "SO7": "32000", "SO6": "20000", "SO9": "354000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Senate Ethics Officer", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Parliament ", "SO1": "594000", "SO3": "0", "SO2": "11000", "SO5": "10000", "SO4": "27000", "SO7": "5000", "SO6": "0", "SO9": "3000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "-71", "SO11": "0", "DEPT_EN_DESC": "Privy Council Department", "SO10": "44000", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "109287000", "SO3": "2725000", "SO2": "2883000", "SO5": "1426000", "SO4": "9619000", "SO7": "881000", "SO6": "597000", "SO9": "2663000", "SO8": "0", "SO12": "179000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Intergovernmental Conference Secretariat", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "2839000", "SO3": "37000", "SO2": "602000", "SO5": "434000", "SO4": "1016000", "SO7": "24000", "SO6": "23000", "SO9": "181000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Transportation Accident Investigation and Safety Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "25422000", "SO3": "206000", "SO2": "1613000", "SO5": "315000", "SO4": "2403000", "SO7": "295000", "SO6": "406000", "SO9": "697000", "SO8": "204000", "SO12": "95000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Chief Electoral Officer", "SO10": "24322000", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "49534000", "SO3": "3646000", "SO2": "3718000", "SO5": "4287000", "SO4": "23862000", "SO7": "363000", "SO6": "3265000", "SO9": "2824000", "SO8": "3937000", "SO12": "-178"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Commissioner of Official Languages", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "16347000", "SO3": "213000", "SO2": "697000", "SO5": "332000", "SO4": "2945000", "SO7": "137000", "SO6": "106000", "SO9": "357000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Security Intelligence Review Committee", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Privy Council ", "SO1": "2049000", "SO3": "44000", "SO2": "218000", "SO5": "26000", "SO4": "491000", "SO7": "24000", "SO6": "4000", "SO9": "45000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "-864", "IRev": "-1381", "SO11": "0", "DEPT_EN_DESC": "Public Safety and Emergency Preparedness Department", "SO10": "434902000", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "111917000", "SO3": "2287000", "SO2": "4559000", "SO5": "4524000", "SO4": "18791000", "SO7": "707000", "SO6": "1153000", "SO9": "4716000", "SO8": "2906000", "SO12": "57000"}
+{"index": {}}
+{"ERev": "-15104", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada Border Services Agency", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "1326924000", "SO3": "1338000", "SO2": "50601000", "SO5": "9302000", "SO4": "210995000", "SO7": "18587000", "SO6": "21855000", "SO9": "34393000", "SO8": "33640000", "SO12": "14825000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Security Intelligence Service", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "324430000", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "171991000"}
+{"index": {}}
+{"ERev": "-6828", "IRev": "-80117", "SO11": "0", "DEPT_EN_DESC": "Correctional Service of Canada", "SO10": "844000", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "1706086000", "SO3": "872000", "SO2": "32152000", "SO5": "20521000", "SO4": "314412000", "SO7": "130621000", "SO6": "27424000", "SO9": "43810000", "SO8": "378075000", "SO12": "75127000"}
+{"index": {}}
+{"ERev": "-5411", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "National Parole Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "43688000", "SO3": "295000", "SO2": "2811000", "SO5": "248000", "SO4": "3229000", "SO7": "311000", "SO6": "277000", "SO9": "1061000", "SO8": "0", "SO12": "3000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Correctional Investigator", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "3632000", "SO3": "72000", "SO2": "286000", "SO5": "18000", "SO4": "451000", "SO7": "39000", "SO6": "30000", "SO9": "48000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "-1756466", "IRev": "-452", "SO11": "0", "DEPT_EN_DESC": "Royal Canadian Mounted Police", "SO10": "149966000", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "3440898000", "SO3": "2361000", "SO2": "160396000", "SO5": "98874000", "SO4": "459237000", "SO7": "123242000", "SO6": "86332000", "SO9": "216263000", "SO8": "68813000", "SO12": "74935000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Royal Canadian Mounted Police External Review Committee", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "1091000", "SO3": "32000", "SO2": "27000", "SO5": "3000", "SO4": "428000", "SO7": "14000", "SO6": "0", "SO9": "1000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Royal Canadian Mounted Police Public Complaints Commission", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Safety and Emergency Preparedness ", "SO1": "5968000", "SO3": "10000", "SO2": "244000", "SO5": "86000", "SO4": "1180000", "SO7": "83000", "SO6": "58000", "SO9": "382000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "-374953", "IRev": "-2990745", "SO11": "0", "DEPT_EN_DESC": "Public Works and Government Services Department", "SO10": "4429000", "FSCL_YR": "2012/2013", "MINE": "Public Works and Government Services ", "SO1": "1134167000", "SO3": "10537000", "SO2": "86427000", "SO5": "1165881000", "SO4": "1505230000", "SO7": "243217000", "SO6": "947995000", "SO9": "73426000", "SO8": "349105000", "SO12": "582817000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Old Port of Montreal Corporation Inc.", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Works and Government Services ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "24472000"}
+{"index": {}}
+{"ERev": "-8877", "IRev": "-360422", "SO11": "0", "DEPT_EN_DESC": "Shared Services Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Public Works and Government Services ", "SO1": "612626000", "SO3": "1822000", "SO2": "488523000", "SO5": "210814000", "SO4": "173388000", "SO7": "9446000", "SO6": "67411000", "SO9": "185661000", "SO8": "0", "SO12": "757000"}
+{"index": {}}
+{"ERev": "-54940", "IRev": "-32686", "SO11": "0", "DEPT_EN_DESC": "Transport Department", "SO10": "607972000", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "505410000", "SO3": "2860000", "SO2": "21621000", "SO5": "8643000", "SO4": "106735000", "SO7": "15964000", "SO6": "13496000", "SO9": "18242000", "SO8": "37963000", "SO12": "81198000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada Post Corporation", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "22210000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Air Transport Security Authority", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "513369000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canadian Transportation Agency", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "24726000", "SO3": "457000", "SO2": "574000", "SO5": "570000", "SO4": "1605000", "SO7": "225000", "SO6": "45000", "SO9": "499000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "The Federal Bridge Corporation Limited ", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "18186000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Marine Atlantic Inc.", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "184876000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of Infrastructure of Canada", "SO10": "3702236000", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "35265000", "SO3": "281000", "SO2": "483000", "SO5": "4906000", "SO4": "7903000", "SO7": "74000", "SO6": "9000", "SO9": "208000", "SO8": "0", "SO12": "1291000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "The Jacques Cartier and Champlain Bridges Inc.", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "109054000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Transportation Appeal Tribunal of Canada", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "855000", "SO3": "0", "SO2": "114000", "SO5": "24000", "SO4": "544000", "SO7": "27000", "SO6": "6000", "SO9": "15000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "VIA Rail Canada Inc.", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Transport ", "SO1": "0", "SO3": "0", "SO2": "0", "SO5": "0", "SO4": "0", "SO7": "0", "SO6": "0", "SO9": "0", "SO8": "0", "SO12": "419958000"}
+{"index": {}}
+{"ERev": "-7441", "IRev": "-437242", "SO11": "0", "DEPT_EN_DESC": "Treasury Board Secretariat", "SO10": "615000", "FSCL_YR": "2012/2013", "MINE": "Treasury Board ", "SO1": "3103322000", "SO3": "386000", "SO2": "2582000", "SO5": "2297000", "SO4": "87364000", "SO7": "856000", "SO6": "1235000", "SO9": "4647000", "SO8": "0", "SO12": "3405000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Canada School of Public Service", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Treasury Board ", "SO1": "69684000", "SO3": "846000", "SO2": "1961000", "SO5": "2027000", "SO4": "20935000", "SO7": "642000", "SO6": "85000", "SO9": "975000", "SO8": "0", "SO12": "110000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Commissioner of Lobbying", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Treasury Board ", "SO1": "2989000", "SO3": "26000", "SO2": "59000", "SO5": "52000", "SO4": "1578000", "SO7": "14000", "SO6": "0", "SO9": "28000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Office of the Public Sector Integrity Commissioner", "SO10": "45000", "FSCL_YR": "2012/2013", "MINE": "Treasury Board ", "SO1": "3961000", "SO3": "98000", "SO2": "85000", "SO5": "196000", "SO4": "1080000", "SO7": "28000", "SO6": "4000", "SO9": "39000", "SO8": "7000", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Veterans Affairs Department", "SO10": "2578929000", "FSCL_YR": "2012/2013", "MINE": "Veterans Affairs ", "SO1": "295941000", "SO3": "4761000", "SO2": "26955000", "SO5": "7072000", "SO4": "369058000", "SO7": "181657000", "SO6": "7497000", "SO9": "6584000", "SO8": "2453000", "SO12": "5321000"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Veterans Review and Appeal Board", "SO10": "0", "FSCL_YR": "2012/2013", "MINE": "Veterans Affairs ", "SO1": "10447000", "SO3": "0", "SO2": "909000", "SO5": "20000", "SO4": "355000", "SO7": "73000", "SO6": "44000", "SO9": "115000", "SO8": "0", "SO12": "0"}
+{"index": {}}
+{"ERev": "0", "IRev": "0", "SO11": "0", "DEPT_EN_DESC": "Western Economic Diversification ", "SO10": "135484000", "FSCL_YR": "2012/2013", "MINE": "Western Economic Diversification ", "SO1": "40427000", "SO3": "254000", "SO2": "1345000", "SO5": "1406000", "SO4": "4207000", "SO7": "261000", "SO6": "43000", "SO9": "292000", "SO8": "0", "SO12": "0"}
