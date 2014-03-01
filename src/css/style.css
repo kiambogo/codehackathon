@@ -260,6 +260,15 @@ p {
   -ms-transition: all 0s ease 0s;
   transition: all 0s ease 0s;
 }
+#circle_bubble {
+  width: 55px;
+  margin-left: -155px;
+  position: absolute;
+  margin-top: -15px;
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 body .cta {
   margin: 40px 10px 20px 0px;
   min-width: 200px;
@@ -320,7 +329,7 @@ body .cta_red {
 body svg {
   position: relative;
   z-index: 10;
-  margin-left: 220px;
+  margin-left: 250px;
 }
 body .logo_wrapper {
   display: block;
@@ -465,13 +474,4 @@ body .category_wrapper .category_item h2 {
 }
 body .category_wrapper .category_item p {
   line-height: 21px;
-}
-body .category_wrapper .category_item #circle_personnel {
-  width: 55px;
-  margin-left: -155px;
-  position: absolute;
-  margin-top: -15px;
-  background: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
