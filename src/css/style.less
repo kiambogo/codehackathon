@@ -101,10 +101,34 @@ body{
 		text-transform: uppercase;
 		letter-spacing: 1.5px;
 		font-weight: 600;
+		.fasttransition;
 	}//cta
-	.cta:hover{
-		.transition;
+	.cta:hover, .cta_small:hover{
+		.fasttransition;
 		border-color: @red;
+		background: @red;
+		color: white;
+	}
+	.cta_small{
+		margin: 20px 10px 20px 0px;
+		min-width: 168px;
+		display: inline-block;
+		text-align: center;
+		border: 2px solid #6D6D6D;
+		border-radius: 5px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 13px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-weight: 600;
+		.fasttransition;
+	}//cta_small
+	.cta_red{
+		border-color: @red;
+		color: @red;
 	}
 	.logo_wrapper{
 		.block;
@@ -119,7 +143,7 @@ body{
 	}//logo_wrapper
 	.intro_background{
 		width: 100%;
-		height: 700px;
+		height: 650px;
 		background: white url('../img/bg.jpg') center center no-repeat;
 		background-size: cover;
 		position: absolute;
@@ -138,8 +162,6 @@ body{
 		position: relative;
 		width: 100%;
 		height: 700px;
-		//background: white url('../img/bg.jpg') center center no-repeat;
-		//background-size: cover;
 		z-index: 10;
 		.timeline{
 			width: 10px;
@@ -151,7 +173,7 @@ body{
 			display: inline-block;
 			float: right;
 			clear: right;
-			margin: 160px 10px 100px;
+			margin: 190px 10px 100px;
 			padding: 0 10%;
 			//border-left: 3px solid #646464;
 			h2{
@@ -166,22 +188,52 @@ body{
 			}//h3
 			#divider{
 				width: 5px;
-				height: 600px;
-				border-left: 4.5px solid #424b4d;
+				height: 2000px;
+				border-left: 4.5px solid #808080;
 				position: absolute;
-				margin-left: -100px;
+				margin-left: -130px;
 				margin-top: 71px;
 			}//divider
 			#circle_flag{
 				position: absolute;
 				width: 75px;
-				margin-left: -135px;
-			}
+				margin-left: -165px;
+			}//circle_flag
 		}//content
 	}//intro_wrapper
 	.category_wrapper{
+		position: relative;
 		height: 500px;
-	}
+		z-index: 10;
+		.category_item{
+			width: 58%;
+			display: inline-block;
+			float: right;
+			clear: right;
+			margin: 0px 10px 150px;
+			padding: 0 10%;
+			h2{
+				text-transform: uppercase;
+				font-weight: 600;
+				font-size: 25px;
+				letter-spacing: 1px;
+				margin-bottom: 10px;
+			}
+			p{
+				line-height: 21px;
+			}
+			#circle_personnel{
+				width: 55px;
+				margin-left: -155px;
+				position: absolute;
+				margin-top: -15px;
+				background: white;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			
+		}//category_item
+	}//category_wrapper
 
 
 }//body
