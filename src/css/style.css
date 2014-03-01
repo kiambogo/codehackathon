@@ -329,9 +329,7 @@ body .cta_red {
 body svg {
   position: relative;
   z-index: 10;
-  margin-left: 250px;
-  width: 80% !important;
-  float: right;
+  width: 70% !important;
 }
 body .logo_wrapper {
   display: block;
@@ -403,7 +401,7 @@ body .intro_wrapper .content h3 {
 }
 body .intro_wrapper .content #divider {
   width: 5px;
-  height: 2000px;
+  height: 300px;
   border-left: 4.5px solid #808080;
   position: absolute;
   margin-left: -130px;
