@@ -330,6 +330,8 @@ body svg {
   position: relative;
   z-index: 10;
   margin-left: 250px;
+  width: 80% !important;
+  float: right;
 }
 body .logo_wrapper {
   display: block;
