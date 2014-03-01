@@ -205,6 +205,35 @@ body{
 		position: relative;
 		height: 500px;
 		z-index: 10;
+		.category_navbar{
+			text-align: right;
+			width: 190px;
+			.absolute;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 1px;
+			li{
+				margin: 10px 0px;
+				a{
+					font-size: 14px;
+					font-weight: 300;
+					border: 2px solid white;
+					padding: 4px 8px;
+					border-radius: 4px;
+					min-width: 150px;
+				}
+				a:hover{
+					.transition;
+					border-color: @red;
+
+				}
+			}//li
+			.active{
+				a{
+					font-weight: 500;
+				}
+			}//active
+		}//category_navbar
 		.category_item{
 			width: 58%;
 			display: inline-block;
