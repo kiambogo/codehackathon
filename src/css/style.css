@@ -1,0 +1,266 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200);
+@font-face {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  outline: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible !important;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  height: auto;
+}
+textarea {
+  -webkit-resize: none !important;
+  -moz-resize: none !important;
+  -ms-resize: none !important;
+  -o-resize: none !important;
+  resize: none !important;
+}
+a,
+input[type='submit'],
+button {
+  cursor: pointer;
+}
+input[type='text'],
+textarea {
+  cursor: text;
+}
+::selection {
+  background: #58d3e5;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #58d3e5;
+  color: #ffffff;
+}
+::-o-selection {
+  background: #58d3e5;
+  color: #ffffff;
+}
+::-ms-selection {
+  background: #58d3e5;
+  color: #ffffff;
+}
+::-webkit-selection {
+  background: #58d3e5;
+  color: #ffffff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+body,
+html {
+  background: white;
+  font-family: 'Raleway' sans-serif;
+}
+img {
+  -webkit-touch-callout: none;
+}
+/* COLOR PALETTE */
+.absolute {
+  position: absolute;
+}
+.active {
+  color: #d37f06 !important;
+}
+.fixed {
+  position: fixed !important;
+}
+.block {
+  display: block;
+}
+.center {
+  text-align: center;
+}
+.clearfix {
+  clear: both;
+}
+.inlineblock {
+  display: inline-block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #414141;
+  padding-bottom: 15px;
+}
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #424b4d;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.clearfix {
+  clear: both;
+}
+.transition {
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+.fasttransition {
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+}
+.notransition {
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  -ms-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+}
