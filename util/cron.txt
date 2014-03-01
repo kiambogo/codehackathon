@@ -1,0 +1,1 @@
+* * * * * cd /home/codehack/code/ && git pull origin master > /dev/null
