@@ -1,17 +1,12 @@
 @import url('/reset.less');
 
-/* COLOR PALETTE */
-@bg: #f1f0f0;
-@orange: #d37f06;
 @slate1: #424b4d;
 @slate2: #353b3d;
+@red: #e44f29;
 
 .absolute{
 	position: absolute;
 }
-.active{
-	color: @orange !important;
-}//active
 .fixed{
 	position: fixed !important;
 }
@@ -89,3 +84,104 @@ p{
 	-ms-transition: all 0s ease 0s;
     transition: all 0s ease 0s;
 } // notransition
+
+body{
+	.cta{
+		margin: 40px 10px 20px 0px;
+		min-width: 200px;
+		display: inline-block;
+		text-align: center;
+		border: 3px solid @slate1;
+		border-radius: 5px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 45px;
+		padding-right: 45px;
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-weight: 600;
+	}//cta
+	.cta:hover{
+		.transition;
+		border-color: @red;
+	}
+	.logo_wrapper{
+		.block;
+		position: fixed;
+		z-index: 10;
+		img{
+			width: 70px;
+			margin: 10px;
+			float:left;
+			clear: left;
+		}
+	}//logo_wrapper
+	.intro_background{
+		width: 100%;
+		height: 700px;
+		background: white url('../img/bg.jpg') center center no-repeat;
+		background-size: cover;
+		position: absolute;
+		z-index: 1;
+		top: 0px;
+		.fadeout{
+			background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 1%, #ffffff 83%, #ffffff 100%);
+			padding-top: 64%;
+			text-align: center;
+			position: absolute;
+			width: 100%;
+		}//fadeout
+	}//intro_background
+	.intro_wrapper{
+		.block;
+		position: relative;
+		width: 100%;
+		height: 700px;
+		//background: white url('../img/bg.jpg') center center no-repeat;
+		//background-size: cover;
+		z-index: 10;
+		.timeline{
+			width: 10px;
+			display: inline-block;
+			height: 400px;
+		}
+		.content{
+			width: 58%;
+			display: inline-block;
+			float: right;
+			clear: right;
+			margin: 160px 10px 100px;
+			padding: 0 10%;
+			//border-left: 3px solid #646464;
+			h2{
+				span{
+					color: @red;
+					font-weight: bold;
+					font-size: 60px;
+				}
+			}//h2
+			h3{
+				margin-top: 15px;
+			}//h3
+			#divider{
+				width: 5px;
+				height: 600px;
+				border-left: 4.5px solid #424b4d;
+				position: absolute;
+				margin-left: -100px;
+				margin-top: 71px;
+			}//divider
+			#circle_flag{
+				position: absolute;
+				width: 75px;
+				margin-left: -135px;
+			}
+		}//content
+	}//intro_wrapper
+	.category_wrapper{
+		height: 500px;
+	}
+
+
+}//body
