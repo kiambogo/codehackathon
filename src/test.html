@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <body>
-<script src="/js/angular_rest.js "type="text/javascript"></script>
 <h1>Ministry Data</h1>
-<input type="submit" value="Get Ministry Data">
-<p>My first paragraph.</p>
 
+
+<form class="my-form" ng-controller="SearchController">
+	{{foo}}
+    <input type="button" value="Get Ministry Data" ng-click="doSomething()">
+</form>
+
+<div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-resource.min.js"></script>
+<script type="text/javascript" src="js/elasticsearch.angular.min.js"></script>
+<script src="js/angular_rest.js "type="text/javascript"></script>
 </body>
 </html>
