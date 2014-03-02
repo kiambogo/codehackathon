@@ -16,6 +16,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-resource.min.js">
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.min.js">
 </script>
 </head>
@@ -45,150 +46,21 @@
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<div class="d3_graphic">
 		<img id="circle_bubble" src="img/circle_graph.png">
-		<form>
-		  <label><input type="radio" name="mode" value="size"> Size</label>
-		  <label><input type="radio" name="mode" value="count" checked> Count</label>
 
-		  <div id="percentage">helloWorld</div>
-		</form>
-		<script>
-			var width = 1200,
-			    height = 700,
-			    radius = Math.min(width, height) / 2,
-			    color = d3.scale.category20c();
-
-			var svg = d3.select(".d3_graphic").append("svg")
-			    .attr("width", width)
-			    .attr("height", height)
-			    .append("g")
-			    .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
-
-			var partition = d3.layout.partition()
-			    .sort(null)
-			    .size([2 * Math.PI, radius * radius])
-			    .value(function(d) { return 1; });
-
-			var arc = d3.svg.arc()
-			    .startAngle(function(d) { return d.x; })
-			    .endAngle(function(d) { return d.x + d.dx; })
-			    .innerRadius(function(d) { return Math.sqrt(d.y); })
-			    .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
-
-			   
-			// Total size of all segments; we set this later, after loading the data.
-			var totalSize = 0; 
-
-			//function jsonImport(){
-				d3.json('flare.json', function(error, root) {
-				  var path = svg.datum(root).selectAll("path")
-				      .data(partition.nodes)
-				    .enter().append("path")
-				      .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-				      .attr("d", arc)
-				      .style("stroke", "#fff")
-				      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-				      .style("fill-rule", "evenodd")
-				      .each(stash)
-				      .on("mouseover", mouseover)
-				      .on("click", onClick);
-			//  }
-			  //jsonImport();
-
-			  d3.selectAll("input").on("change", function change() {
-			    var value = this.value === "count"
-			        ? function() { return 1; }
-			        : function(d) { return d.size; };
-
-			    path
-			        .data(partition.value(value).nodes)
-			        .transition()
-			        .duration(1500)
-			        .attrTween("d", arcTween)
-			  });
-			  // Get total size of the tree = value of root node from partition.
-			  totalSize = path.node().__data__.value;
-			});
-
-			// Stash the old values for transition.
-			function stash(d) {
-			  d.x0 = d.x;
-			  d.dx0 = d.dx;
-			}
-
-			// Interpolate the arcs in data space.
-			function arcTween(a) {
-			  var i = d3.interpolate({x: a.x0, dx: a.dx0}, a);
-			  return function(t) {
-			    var b = i(t);
-			    a.x0 = b.x;
-			    a.dx0 = b.dx;
-			    return arc(b);
-			  };
-			}
-
-			function onClick(d){
-				//alert("clicked");
-				d3.selectAll("path")
-					.transition()
-					.attr("transform", "translate("+(-500)+"," + 0 + ")"+"rotate(150)")
-					.duration(2000);
-			
-			}
-
-
-			function mouseover(d) {
-				  var sequenceArray = getAncestors(d);
-				  // Fade all the segments.
-			  	  d3.selectAll("path")
-			  	  	.transition()
-			      	.style("opacity", 0.3);
-
-		      		var percentage = (100 * d.value / totalSize).toPrecision(3);
-					var percentageString = percentage + "%";
-				 	 if (percentage < 0.1) {
-				 	   percentageString = "< 0.1%";
-					  }
-
-			  		d3.select("#percentage")
-			   		   .text(percentageString);
-
-			      // Then highlight only those that are an ancestor of the current segment.
-				  svg.selectAll("path")
-				      .filter(function(node) {
-				                return (sequenceArray.indexOf(node) >= 0);
-				              })
-				      .style("opacity", 1.0)
-				      .transition();
-				}
-			function mouseleave(d) {
-			  // Deactivate all segments during transition.
-			  d3.selectAll("path").on("mouseover", null);
-			  d3.selectAll("path")
-		      .transition()
-		      .duration(1000)
-		      .style("opacity", 1)
-		      .each("end", function() {
-	              d3.select(this).on("mouseover", mouseover);
-	           });
-			}
-
-			// Given a node in a partition layout, return an array of all of its ancestor
-			// nodes, highest first, but excluding the root.
-			function getAncestors(node) {
-			  var path = [];
-			  var current = node;
-			  while (current.parent) {
-			    path.unshift(current);
-			    current = current.parent;
-			  }
-			  return path;
-			}
-			  
-
-			d3.select(".d3_graphic").on("mouseleave", mouseleave);
-			
-			d3.select(self.frameElement).style("height", height + "px");
-		</script>
+		<div class="data_description">
+			<div id="percentage">
+				value
+			</div>
+			<div id="sector_name">
+				name
+			</div>
+			<div id="data_text">
+				<h2>jelly-o oat cake chocolate</h2>
+				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
+				<a class="cta_small cta_red">More information</a>
+				<a class="cta_small" id="back">Go Back</a>
+			</div>
+		</div>
 	</div><!-- d3_graphic -->
 	<div class="clearfix"></div>
 
@@ -202,6 +74,8 @@
 			<li><a>Health</a></li>
 		</ul>
 		<div class="category_item">
+
+		<div id="divider" style="height: 1000px"></div>
 			<img id="circle_bubble" src="img/circle_personnel.png">
 			<h2>Personnel expenditures</h2>
 			<p>Halvah candy bear claw jelly-o oat cake chocolate cake pastry candy canes. Sweet roll sugar plum powder cake gummies apple pie toffee oat cake applicake. Tiramisu carrot cake macaroon bear claw soufflé ice cream soufflé pudding liquorice. Lemon drops chocolate candy jelly beans cheesecake marshmallow bonbon sweet jelly-o. Jelly pie dessert candy canes gingerbread wafer chocolate pie. </p>
@@ -223,4 +97,215 @@
 
 	</div><!-- category_wrapper -->
 </body>
+
+<script>
+	var margin = {top: 270, right: 400, bottom: 270, left: 300},
+	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
+
+	var hue = d3.scale.category10();
+
+	var luminance = d3.scale.sqrt()
+	    .domain([0, 1e6])
+	    .clamp(true)
+	    .range([90, 20]);
+
+	var svg = d3.select(".d3_graphic").append("svg")
+	    .attr("width", margin.left + margin.right)
+	    .attr("height", margin.top + margin.bottom)
+	  .append("g")
+	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var partition = d3.layout.partition()
+	    .sort(function(a, b) { return d3.ascending(a.name, b.name); })
+	    .size([2 * Math.PI, radius]);
+
+	var arc = d3.svg.arc()
+	    .startAngle(function(d) { return d.x; })
+	    .endAngle(function(d) { return d.x + d.dx - .01 / (d.depth + .5); })
+	    .innerRadius(function(d) { return radius / 3 * d.depth; })
+	    .outerRadius(function(d) { return radius / 3 * (d.depth + 1) - 1; });
+
+	d3.json("flare.json", function(error, root) {
+
+	  // Compute the initial layout on the entire tree to sum sizes.
+	  // Also compute the full name and fill color for each node,
+	  // and stash the children so they can be restored as we descend.
+	  partition
+	      .value(function(d) { return d.size; })
+	      .nodes(root)
+	      .forEach(function(d) {
+	        d._children = d.children;
+	        d.sum = d.value;
+	        d.key = key(d);
+	        d.fill = fill(d);
+	      });
+
+	  // Now redefine the value function to use the previously-computed sum.
+	  partition
+	      .children(function(d, depth) { return depth < 2 ? d._children : null; })
+	      .value(function(d) { return d.sum; });
+
+	  var center = svg.append("circle")
+	      .attr("r", radius / 3)
+	      .on("click", zoomOut);
+
+
+	  center.append("title")
+	      .text("zoom out");
+
+	  var path = svg.selectAll("path")
+	      .data(partition.nodes(root).slice(1))
+	      .enter().append("path")
+	      .attr("d", arc)
+	      .style("fill", function(d) { return d.fill; })
+	      .each(function(d) { this._current = updateArc(d); })
+	      .on("click", zoomIn)
+	      .on("mouseover", mouseover);
+	// Total size of all segments; we set this later, after loading the data.
+		var totalSize = 0; 
+		 // Get total size of the tree = value of root node from partition.
+		  totalSize = path.node().__data__.value;
+
+		// Given a node in a partition layout, return an array of all of its ancestor
+		// nodes, highest first, but excluding the root.
+		function getAncestors(node) {
+		  var path = [];
+		  var current = node;
+		  while (current.parent) {
+		    path.unshift(current);
+		    current = current.parent;
+		  }
+		  return path;
+		}
+
+	  function mouseover(d) {
+		  var sequenceArray = getAncestors(d);
+		  // Fade all the segments.
+	  	  d3.selectAll("path")
+	  	  	.transition()
+	      	.style("opacity", 0.8);
+
+      		var percentage = (100 * d.value / totalSize).toPrecision(3);
+      		var sector_name = d.name;
+			var percentageString = percentage + "%";
+		 	 if (percentage < 0.1) {
+		 	   percentageString = "< 0.1%";
+			  }
+			$(".data_percentage").fadeIn();
+	  		d3.select("#percentage")
+	   		   .text(percentageString);
+   		   d3.select("#sector_name")
+	   		   .text(sector_name);
+
+	      // Then highlight only those that are an ancestor of the current segment.
+		  svg.selectAll("path")
+		      .filter(function(node) {
+		                return (sequenceArray.indexOf(node) >= 0);
+		              })
+		      .style("opacity", 1.0)
+		      .transition();
+		}
+		function mouseleave(d) {
+		  // Deactivate all segments during transition.
+		  d3.selectAll("path")
+	      .transition()
+	      .duration(1500)
+	      .style("opacity", 1)
+	      .each("end", function() {
+	          d3.select(this).on("mouseover", mouseover);
+	       });
+		}
+
+	  function zoomIn(p) {
+	    if (p.depth > 1) p = p.parent;
+	    if (!p.children) return;
+	    zoom(p, p);
+	  }
+
+	  function zoomOut(p) {
+	    if (!p.parent) return;
+	    zoom(p.parent, p);
+	  }
+
+
+	  // Zoom to the specified new root.
+	  function zoom(root, p) {
+	    if (document.documentElement.__transition__) return;
+
+	    // Rescale outside angles to match the new layout.
+	    var enterArc,
+	        exitArc,
+	        outsideAngle = d3.scale.linear().domain([0, 2 * Math.PI]);
+
+	    function insideArc(d) {
+	      return p.key > d.key
+	          ? {depth: d.depth - 1, x: 0, dx: 0} : p.key < d.key
+	          ? {depth: d.depth - 1, x: 2 * Math.PI, dx: 0}
+	          : {depth: 0, x: 0, dx: 2 * Math.PI};
+	    }
+
+	    function outsideArc(d) {
+	      return {depth: d.depth + 1, x: outsideAngle(d.x), dx: outsideAngle(d.x + d.dx) - outsideAngle(d.x)};
+	    }
+
+	    center.datum(root);
+
+	    // When zooming in, arcs enter from the outside and exit to the inside.
+	    // Entering outside arcs start from the old layout.
+	    if (root === p) enterArc = outsideArc, exitArc = insideArc, outsideAngle.range([p.x, p.x + p.dx]);
+
+	    path = path.data(partition.nodes(root).slice(1), function(d) { return d.key; });
+
+	    // When zooming out, arcs enter from the inside and exit to the outside.
+	    // Exiting outside arcs transition to the new layout.
+	    if (root !== p) enterArc = insideArc, exitArc = outsideArc, outsideAngle.range([p.x, p.x + p.dx]);
+
+	    d3.transition().duration(d3.event.altKey ? 7500 : 750).each(function() {
+	      path.exit().transition()
+	          .style("fill-opacity", function(d) { return d.depth === 1 + (root === p) ? 1 : 0; })
+	          .attrTween("d", function(d) { return arcTween.call(this, exitArc(d)); })
+	          .remove();
+
+	      path.enter().append("path")
+	          .style("fill-opacity", function(d) { return d.depth === 2 - (root === p) ? 1 : 0; })
+	          .style("fill", function(d) { return d.fill; })
+	          .on("click", zoomIn)
+	          .each(function(d) { this._current = enterArc(d); });
+
+	      path.transition()
+	          .style("fill-opacity", 1)
+	          .attrTween("d", function(d) { return arcTween.call(this, updateArc(d)); });
+	    });
+	  }
+	});
+
+	function key(d) {
+	  var k = [], p = d;
+	  while (p.depth) k.push(p.name), p = p.parent;
+	  return k.reverse().join(".");
+	}
+
+	function fill(d) {
+	  var p = d;
+	  while (p.depth > 1) p = p.parent;
+	  var c = d3.lab(hue(p.name));
+	  c.l = luminance(d.sum);
+	  return c;
+	}
+
+	function arcTween(b) {
+	  var i = d3.interpolate(this._current, b);
+	  this._current = i(0);
+	  return function(t) {
+	    return arc(i(t));
+	  };
+	}
+
+	function updateArc(d) {
+	  return {depth: d.depth, x: d.x, dx: d.dx};
+	}
+
+	d3.select(self.frameElement).style("height", margin.top + margin.bottom + "px");
+
+</script>
 </html>
