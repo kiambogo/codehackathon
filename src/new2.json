@@ -1,8 +1,8 @@
 {
     "name" : "Expenditure",
     "children" : [
-
     {
+        "name": "Canadian Heritage",
         "children": [
             {
                 "name": "Canadian Heritage Department", 
@@ -273,8 +273,7 @@
                     { "name": "Health and Welfare Services", "size": 15181 }
                 ]
             }
-        ], 
-        "name": "Canadian Heritage"
+        ]
     }, 
     {
         "children": [
