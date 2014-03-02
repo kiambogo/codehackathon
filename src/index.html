@@ -97,6 +97,7 @@
 
 <script>
 	/* SALARY INSERTION*/
+	var tax = 3840234827387;
 	$('#salary_amount').hide();
 	$('#salary_submit').hide();
 	$('#salary').on("click", function(){
@@ -116,7 +117,34 @@
 				$('#salary').fadeIn();
 			});
 		});
+		$("#salary_submit").on("click", function() {
+			income = $('#salary_amount').val().substring(1,$('#salary_amount').val().length);
+			income -= 11138;
+			tax = 0;
+			if (income < 43953 && income > 0) {
+				tax += 0.15 * income;
+			}
+			else if (income < 87907) {
+				tax += 6593;
+				income -= 43953;
+				tax += 0.22 * income;
+			}
+			else if (income < 136270) {
+				tax += 16263;
+				income -= 136270;
+				tax += 0.26 * income;
+			}
+			else {
+				tax += 28837;
+				income -= 136270;
+				tax += 0.29 * income;
+			}
+		});
 	});
+
+	function roundToTwo(num) {    
+    	return +(Math.round(num + "e+2")  + "e-2");
+	}
 
 	/* smooth scrolling*/
 	$(function() {
@@ -315,12 +343,8 @@
 	  	  	.transition()
 	      	.style("opacity", 0.75);
 
-      		var percentage = (100 * d.value / totalSize).toPrecision(3);
       		var sector_name = d.name;
-			var percentageString = percentage + "%";
-		 	 if (percentage < 0.1) {
-		 	   percentageString = "< 0.1%";
-			  }
+			var percentageString = "$" + roundToTwo(((tax/3840234827387) * d.value));	
 			$(".data_percentage").fadeIn();
 	  		d3.select("#percentage")
 	   		   .text(percentageString)
