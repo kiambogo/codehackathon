@@ -536,6 +536,7 @@ body .d3_graphic .data_description #sector_name {
   margin-bottom: 10px;
   max-height: 100px;
   overflow-y: scroll;
+  font-weight: 500;
 }
 body .d3_graphic .data_percentage {
   display: none;

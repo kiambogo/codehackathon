@@ -57,7 +57,7 @@
 				</div>
 				<h3><span id="percentage">0%</span> is used in</h3>
 				<h2 id="sector_name">Hover over the graph for statistics</h2>
-				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
+				<p>This graph shows the breakdown of tax distribution in the 2012-2013 fiscal year in Canada. You can manipulate around the pie graph to view data breakdown. Click in the center of the graph to zoom out, click on any of the portion of the graph to zoom in to the next layer composition.  </p>
 				<a href="#category_wrapper" class="cta_small cta_red">More information</a>
 				<a class="cta_small" id="back">Go Back</a>
 			</div>
@@ -115,7 +115,8 @@
 			$('#salary_submit').fadeIn("medium");
 		});
 		$('#breakdown').on("click", function(){
-			tax = 745518134170;
+			tax = 3840234827387;
+			income = tax;
 			$("#salary_title").fadeOut();
 			$('#salary_amount').fadeOut("medium");
 			$('#salary_submit').fadeOut("medium", function(){
@@ -332,7 +333,7 @@
 		 // Get total size of the tree = value of root node from partition.
 		  totalSize = path.node().__data__.value;
 
-		 initializeBreadcrumbTrail();
+		 //initializeBreadcrumbTrail();
 
 		// Given a node in a partition layout, return an array of all of its ancestor
 		// nodes, highest first, but excluding the root.
@@ -390,11 +391,11 @@
 		}
 
 	  function zoomIn(p) {
-	  	//d3.selectAll("path").on("mouseover", null);
+	  	// dd3.selectAll("path").on("mouseover", null)
+
 	    if (p.depth > 1) p = p.parent;
 	    if (!p.children) return;
 	    zoom(p, p);
-
 	  }
 
 	  function zoomOut(p) {
