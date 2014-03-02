@@ -55,7 +55,7 @@
 					<h3 style="display: block">Your Salary Breakdown:</h3>
 					<hr>
 				</div>
-				<h3><span id="percentage">0%</span> is used in</h3>
+				<h3><span id="percentage"></span> is used in</h3>
 				<h2 id="sector_name">Hover over the graph for statistics</h2>
 				<p>This graph shows the breakdown of tax distribution in the 2012-2013 fiscal year in Canada. You can manipulate around the pie graph to view data breakdown. Click in the center of the graph to zoom out, click on any of the portion of the graph to zoom in to the next layer composition.  </p>
 				<a href="#category_wrapper" class="cta_small cta_red">Layer Breakdown</a>
@@ -148,7 +148,7 @@
 
 <script>
 	/* SALARY INSERTION*/
-	var tax = 745518134170;
+	var tax = 276514134170;
 	$('#salary_amount').hide();
 	$('#salary_submit').hide();
 	$('#salary').on("click", function(){
@@ -162,7 +162,7 @@
 			$('#salary_submit').fadeIn("medium");
 		});
 		$('#breakdown').on("click", function(){
-			tax = 3840234827387;
+			tax = 276514134170;
 			income = tax;
 			$("#salary_title").fadeOut();
 			$('#salary_amount').fadeOut("medium");
@@ -286,8 +286,8 @@
 
 	jQuery(function($) {
 	    $('.timer').countTo({
-	        from: 745518110000,
-	        to: 745518134170,
+	        from: 276512110000,
+	        to: 276514134170,
 	        speed: 5000,
 	        refreshInterval: 50,
 	        onComplete: function(value) {
@@ -349,7 +349,7 @@
 	      .nodes(root)
 	      .forEach(function(d) {
 	        d._children = d.children;
-	        d.sum = d.value;
+	        d.sum = (d.value/745518134170)*276514134170;
 	        d.key = key(d);
 	        d.fill = fill(d);
 	      });
@@ -406,7 +406,7 @@
       		if ($('#sector_name').text().length > 10){
 				//console.log('toolong');
 			}
-			var percentageString = "$" + (roundToTwo(((tax/745518134170) * d.value))).toLocaleString();			$(".data_percentage").fadeIn();
+			var percentageString = "$" + (roundToTwo(((tax/276514134170) * d.value))).toLocaleString();			$(".data_percentage").fadeIn();
 	  		d3.select("#percentage")
 	   		   .text(percentageString)
 	   		   .transition()
