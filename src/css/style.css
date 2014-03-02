@@ -351,6 +351,13 @@ body .fixSidebar {
   -ms-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
 }
+body .timer {
+  min-width: 440px;
+  display: inline-block;
+  color: #e44f29;
+  font-weight: bold;
+  font-size: 60px;
+}
 body input {
   display: none;
   margin: 40px 10px 20px 0px;

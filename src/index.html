@@ -32,7 +32,7 @@
 			<div class="gradient" id="divider"></div>
 			<img id="circle_flag" src="img/circle_flag.png">
 			<h2>In 2012, the government of Canada received</h2>
-			<h2><span>$</span><span class="timer">3840234820000</span> in tax.</h2>
+			<h2><span>$</span><div class="timer">745518110000</div> in tax.</h2>
 			<h3>Have you ever wondered where your tax goes?</h3>
 			<a href="#d3_graphic" class="cta" id="breakdown">View Breakdown</a>
 			<a class="cta secondary" id="salary">Salary Decomposed</a>
@@ -198,8 +198,8 @@
 
 	jQuery(function($) {
 	    $('.timer').countTo({
-	        from: 3840234820000,
-	        to: 3840234827387,
+	        from: 745518110000,
+	        to: 745518134170,
 	        speed: 5000,
 	        refreshInterval: 50,
 	        onComplete: function(value) {
@@ -207,8 +207,6 @@
 	        }
 	    });
 	});
-
-
 
 	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
