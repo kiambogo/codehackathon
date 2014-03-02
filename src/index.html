@@ -46,7 +46,14 @@
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<div class="d3_graphic">
 		<img id="circle_bubble" src="img/circle_graph.png">
+
 		<div class="data_description">
+			<div id="percentage">
+				value
+			</div>
+			<div id="sector_name">
+				name
+			</div>
 			<div id="data_text">
 				<h2>jelly-o oat cake chocolate</h2>
 				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
@@ -92,7 +99,7 @@
 </body>
 
 <script>
-	var margin = {top: 270, right: 400, bottom: 270, left: 350},
+	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
 
 	var hue = d3.scale.category10();
@@ -148,7 +155,7 @@
 
 	  var path = svg.selectAll("path")
 	      .data(partition.nodes(root).slice(1))
-	    .enter().append("path")
+	      .enter().append("path")
 	      .attr("d", arc)
 	      .style("fill", function(d) { return d.fill; })
 	      .each(function(d) { this._current = updateArc(d); })
@@ -172,33 +179,32 @@
 		}
 
 	  function mouseover(d) {
-			  var sequenceArray = getAncestors(d);
-			  // Fade all the segments.
-		  	  d3.selectAll("path")
-		  	  	.transition()
-		      	.style("opacity", 0.8);
+		  var sequenceArray = getAncestors(d);
+		  // Fade all the segments.
+	  	  d3.selectAll("path")
+	  	  	.transition()
+	      	.style("opacity", 0.8);
 
-	      		var percentage = (100 * d.value / totalSize).toPrecision(3);
-	      		var value = d.value * 100;
-				var percentageString = percentage + "%";
-			 	 if (percentage < 0.1) {
-			 	   percentageString = "< 0.1%";
-				  }
-				$(".data_percentage").fadeIn();
-		  		d3.select("#percentage")
-		   		   .text(percentageString);
+      		var percentage = (100 * d.value / totalSize).toPrecision(3);
+      		var sector_name = d.name;
+			var percentageString = percentage + "%";
+		 	 if (percentage < 0.1) {
+		 	   percentageString = "< 0.1%";
+			  }
+			$(".data_percentage").fadeIn();
+	  		d3.select("#percentage")
+	   		   .text(percentageString);
+   		   d3.select("#sector_name")
+	   		   .text(sector_name);
 
-		   		d3.select("#value")
-		   		   .text(value);
-
-		      // Then highlight only those that are an ancestor of the current segment.
-			  svg.selectAll("path")
-			      .filter(function(node) {
-			                return (sequenceArray.indexOf(node) >= 0);
-			              })
-			      .style("opacity", 1.0)
-			      .transition();
-			}
+	      // Then highlight only those that are an ancestor of the current segment.
+		  svg.selectAll("path")
+		      .filter(function(node) {
+		                return (sequenceArray.indexOf(node) >= 0);
+		              })
+		      .style("opacity", 1.0)
+		      .transition();
+		}
 		function mouseleave(d) {
 		  // Deactivate all segments during transition.
 		  d3.selectAll("path")
