@@ -37,7 +37,7 @@
 			<a href="#d3_graphic" class="cta" id="breakdown">View Breakdown</a>
 			<a class="cta secondary" id="salary">Salary Decomposed</a>
 			<input type="text" id="salary_amount" name="salary_amount" value="$" placeholder="ie. 10000" style="text-align:left">
-			<input type="submit" id="salary_submit" name="salary_submit" value="VIEW BREAKDOWN">
+			<a href="#d3_graphic"><input type="submit" id="salary_submit" name="salary_submit" value="VIEW BREAKDOWN"></a>
 		</div>
 	</div><!--  intro_wrapper -->
 	<div class="intro_background">
@@ -51,6 +51,10 @@
 
 		<div class="data_description">
 			<div id="data_text">
+				<div id="salary_title"  style="display: none">
+					<h3 style="display: block">Your Salary Breakdown:</h3>
+					<hr>
+				</div>
 				<h3><span id="percentage">0%</span> is used in</h3>
 				<h2 id="sector_name">Hover over the graph for statistics</h2>
 				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
@@ -97,6 +101,7 @@
 
 <script>
 	/* SALARY INSERTION*/
+	var tax = 3840234827387;
 	$('#salary_amount').hide();
 	$('#salary_submit').hide();
 	$('#salary').on("click", function(){
@@ -116,15 +121,35 @@
 				$('#salary').fadeIn();
 			});
 		});
+		$("#salary_submit").on("click", function() {
+			$("#salary_title").fadeIn();
+			income = $('#salary_amount').val().substring(1,$('#salary_amount').val().length);
+			income -= 11138;
+			tax = 0;
+			if (income < 43953 && income > 0) {
+				tax += 0.15 * income;
+			}
+			else if (income < 87907) {
+				tax += 6593;
+				income -= 43953;
+				tax += 0.22 * income;
+			}
+			else if (income < 136270) {
+				tax += 16263;
+				income -= 136270;
+				tax += 0.26 * income;
+			}
+			else {
+				tax += 28837;
+				income -= 136270;
+				tax += 0.29 * income;
+			}
+		});
 	});
 
-	/* TRUNCATE TAX TITLE*/
-	function truncate(){
-		if ($('#sector_name').text().length > 10){
-			console.log('toolong');
-		}
+	function roundToTwo(num) {    
+    	return +(Math.round(num + "e+2")  + "e-2");
 	}
-
 
 	/* smooth scrolling*/
 	$(function() {
@@ -321,16 +346,12 @@
 	  	  	.transition()
 	      	.style("opacity", 0.75);
 
-      		var percentage = (100 * d.value / totalSize).toPrecision(3);
       		var sector_name = d.name;
+
       		if ($('#sector_name').text().length > 10){
-				console.log('toolong');
+				//console.log('toolong');
 			}
-			console.log("haii");
-			var percentageString = percentage + "%";
-		 	 if (percentage < 0.1) {
-		 	   percentageString = "< 0.1%";
-			  }
+			var percentageString = "$" + roundToTwo(((tax/3840234827387) * d.value));	
 			$(".data_percentage").fadeIn();
 	  		d3.select("#percentage")
 	   		   .text(percentageString)
