@@ -115,6 +115,8 @@
 			$('#salary_submit').fadeIn("medium");
 		});
 		$('#breakdown').on("click", function(){
+			tax = 3840234827387;
+			$("#salary_title").fadeOut();
 			$('#salary_amount').fadeOut("medium");
 			$('#salary_submit').fadeOut("medium", function(){
 				$('#breakdown').text("VIEW BREAKDOWN").removeClass("shrinkPadding").attr('href', "#d3_graphic");
