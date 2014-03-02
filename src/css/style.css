@@ -326,6 +326,44 @@ body .cta_red {
   border-color: #e44f29;
   color: #e44f29;
 }
+body input {
+  display: none;
+  margin: 40px 10px 20px 0px;
+  min-width: 200px;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid #424b4d;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  background: transparent;
+}
+body input#salary_submit {
+  color: white;
+  background: #e44f29;
+  border-color: #e44f29;
+}
+body input#salary_submit:hover {
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  border-color: #e44f29;
+  background: #e44f29;
+  color: white;
+}
 body circle,
 body path {
   cursor: pointer;

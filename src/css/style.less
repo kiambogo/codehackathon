@@ -138,6 +138,37 @@ body{
 		border-color: @red;
 		color: @red;
 	}
+	input{
+		display: none;
+		margin: 40px 10px 20px 0px;
+		min-width: 200px;
+		display: inline-block;
+		text-align: center;
+		border: 3px solid @slate1;
+		border-radius: 5px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 45px;
+		padding-right: 45px;
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-weight: 600;
+		.fasttransition;
+		background: transparent;
+	}//input
+	input#salary_submit{
+		color: white;
+		background: @red;
+		border-color: @red;
+	}
+	input#salary_submit:hover{
+		.fasttransition;
+		border-color: @red;
+		background: @red;
+		color: white;
+
+	}
 	circle,path {
 	  cursor: pointer;
 	}
