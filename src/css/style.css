@@ -557,7 +557,7 @@ body .wrapper .category_navbar {
   position: absolute;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
   z-index: 50;
 }
 body .wrapper .category_navbar li {
