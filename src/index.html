@@ -34,7 +34,7 @@
 			<h2>In 2012, the government of Canada received</h2>
 			<h2><span>$324,797,234,937</span> in tax.</h2>
 			<h3>Have you ever wondered where your tax goes?</h3>
-			<a class="cta" id="breakdown">View Breakdown</a>
+			<a href="#d3_graphic" class="cta" id="#breakdown">View Breakdown</a>
 			<a class="cta secondary" id="salary">Salary Decomposed</a>
 			<input type="text" id="salary_amount" name="salary_amount" value="$" placeholder="ie. 10000" style="text-align:left">
 			<input type="submit" id="salary_submit" name="salary_submit" value="VIEW BREAKDOWN">
@@ -46,7 +46,7 @@
 
 	<!-- D3 THINGS -->
 	<script src="http://d3js.org/d3.v3.min.js"></script>
-	<div class="d3_graphic">
+	<div class="d3_graphic" id="d3_graphic">
 		<img id="circle_bubble" src="img/circle_graph.png">
 
 		<div class="data_description">
@@ -59,7 +59,7 @@
 			<div id="data_text">
 				<h2>jelly-o oat cake chocolate</h2>
 				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
-				<a class="cta_small cta_red">More information</a>
+				<a href="#category_wrapper" class="cta_small cta_red">More information</a>
 				<a class="cta_small" id="back">Go Back</a>
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 
 
 	<!-- CATEGORY -->
-	<div class="category_wrapper">
+	<div class="category_wrapper" id="category_wrapper">
 		<ul class="category_navbar">
 			<li class="active"><a>Personnel</a></li>
 			<li><a>Transportation</a></li>
@@ -121,6 +121,23 @@
 			});
 		});
 	});
+	
+	/* smooth scrolling*/
+	$(document).ready(function() {    
+	  $('a[href*="#"]').on('click.smoothscroll',function(e) {
+	    e.preventDefault();
+	    var target = this.hash;
+	    goScroll(target);
+	  });
+	});
+	function goScroll(target){
+	  $target = $(target);
+	  $('html, body').stop().animate({
+	    'scrollTop': $target.offset().top - 25
+	  }, 500, function () {
+	    window.location.hash = target;
+	  });
+	}
 
 	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
