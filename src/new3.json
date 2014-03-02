@@ -627,6 +627,7 @@
         ]
     },
     {
+        "name": "Privy Council",
         "children": [
             {
                 "name": "Office of the Commissioner of Official Languages", 
@@ -787,10 +788,10 @@
                     { "name": "Utilities, Materials and Supplies", "size": 24000 }
                 ]
             }
-        ], 
-        "name": "Privy Council"
+        ]
     }, 
     {
+        "name": "Environment",
         "children": [
             {
                 "name": "Canadian Environmental Assessment Agency", 
@@ -924,10 +925,10 @@
                     { "name": "Health and Welfare Services", "size": 16293 }
                 ]
             }
-        ], 
-        "name": "Environment"
+        ]
     }, 
     {
+        "name": "Citizenship and Immigration",
         "children": [
             {
                 "name": "Immigration and Refugee Board of Canada", 
@@ -999,10 +1000,10 @@
                     { "name": "Utilities, Materials and Supplies", "size": 6235000 }
                 ]
             }
-        ], 
-        "name": "Citizenship and Immigration"
+        ]
     }, 
     {
+        "name": "Parliament",
         "children": [
             {
                 "name": "Library of Parliament", 
@@ -1117,8 +1118,7 @@
                     { "name": "Health and Welfare Services", "size": 45533 }
                 ]
             }
-        ], 
-        "name": "Parliament"
+        ]
     }
     ]
 }
