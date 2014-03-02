@@ -326,6 +326,11 @@ body .cta_red {
   border-color: #e44f29;
   color: #e44f29;
 }
+body .shrinkPadding {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 0px;
+}
 body input {
   display: none;
   margin: 40px 10px 20px 0px;
