@@ -546,13 +546,13 @@ body .d3_graphic .data_percentage {
   left: 560px;
   font-size: 35px;
 }
-body .category_wrapper {
+body .wrapper {
   position: relative;
   height: 500px;
   z-index: 10;
   margin-top: 200px;
 }
-body .category_wrapper .category_navbar {
+body .wrapper .category_navbar {
   text-align: right;
   width: 190px;
   position: absolute;
@@ -560,10 +560,10 @@ body .category_wrapper .category_navbar {
   font-weight: 600;
   letter-spacing: 1px;
 }
-body .category_wrapper .category_navbar li {
+body .wrapper .category_navbar li {
   margin: 10px 0px;
 }
-body .category_wrapper .category_navbar li a {
+body .wrapper .category_navbar li a {
   font-size: 14px;
   font-weight: 300;
   border: 2px solid white;
@@ -571,7 +571,7 @@ body .category_wrapper .category_navbar li a {
   border-radius: 4px;
   min-width: 150px;
 }
-body .category_wrapper .category_navbar li a:hover {
+body .wrapper .category_navbar li a:hover {
   -webkit-transition: all 0.7s ease 0s;
   -moz-transition: all 0.7s ease 0s;
   -o-transition: all 0.7s ease 0s;
@@ -579,10 +579,10 @@ body .category_wrapper .category_navbar li a:hover {
   transition: all 0.7s ease 0s;
   border-color: #e44f29;
 }
-body .category_wrapper .category_navbar .active a {
+body .wrapper .category_navbar .active a {
   font-weight: 500;
 }
-body .category_wrapper .category_item {
+body .wrapper .category_item {
   width: 58%;
   display: inline-block;
   float: right;
@@ -590,13 +590,18 @@ body .category_wrapper .category_item {
   margin: 0px 10px 150px;
   padding: 0 10%;
 }
-body .category_wrapper .category_item h2 {
+body .wrapper .category_item h2 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 25px;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-body .category_wrapper .category_item p {
+body .wrapper .category_item p {
   line-height: 21px;
+}
+body .wrapper .category_item .userhandle {
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 150px;
 }
