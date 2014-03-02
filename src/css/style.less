@@ -143,6 +143,18 @@ body{
 		padding-right: 15px;
 		min-width: 0px;
 	}
+	.fixLogo{
+		width: 55px !important;
+		margin: 45px 128px !important;
+		float: left;
+		clear: left;
+		.transition;
+	}
+	.fixSidebar{
+		position: fixed !important;
+		top: 120px;
+		.transition;
+	}//fixSidebar
 	input{
 		display: none;
 		margin: 40px 10px 20px 0px;
@@ -190,6 +202,17 @@ body{
 		margin-top: 71px;
 	}//divider
 
+	.gradient{
+	    -webkit-border-image: 
+	    -webkit-gradient(linear, 0 0, 0 50%, from(#808080), to(rgba(0, 0, 0, 0))) 1 0%;
+	    -webkit-border-image: 
+	    -webkit-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;
+	    -o-border-image:
+	    -o-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;
+	    -moz-border-image:
+	    -moz-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;    
+	}
+
 	svg{
 		position: relative;
 		z-index: 10;
@@ -206,6 +229,7 @@ body{
 			margin: 10px;
 			float:left;
 			clear: left;
+			.transition;
 		}
 	}//logo_wrapper
 	.intro_background{

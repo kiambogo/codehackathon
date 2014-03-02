@@ -331,6 +331,26 @@ body .shrinkPadding {
   padding-right: 15px;
   min-width: 0px;
 }
+body .fixLogo {
+  width: 55px !important;
+  margin: 45px 128px !important;
+  float: left;
+  clear: left;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+body .fixSidebar {
+  position: fixed !important;
+  top: 120px;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
 body input {
   display: none;
   margin: 40px 10px 20px 0px;
@@ -385,6 +405,12 @@ body #divider {
   margin-left: -130px;
   margin-top: 71px;
 }
+body .gradient {
+  -webkit-border-image: -webkit-gradient(linear, 0 0, 0 50%, from(#808080), to(rgba(0, 0, 0, 0))) 1 0%;
+  -webkit-border-image: -webkit-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(#808080, rgba(0, 0, 0, 0)) 1 100%;
+}
 body svg {
   position: relative;
   z-index: 10;
@@ -400,6 +426,11 @@ body .logo_wrapper img {
   margin: 10px;
   float: left;
   clear: left;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 body .intro_background {
   width: 100%;
