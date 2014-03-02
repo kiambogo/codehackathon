@@ -34,10 +34,10 @@
 			<h2>In 2012, the government of Canada received</h2>
 			<h2><span>$324,797,234,937</span> in tax.</h2>
 			<h3>Have you ever wondered where your tax goes?</h3>
-			<a href="#" class="cta" id="breakdown">View Breakdown</a>
-			<a href="#" class="cta secondary" id="salary">Salary Decomposed</a>
+			<a class="cta" id="breakdown">View Breakdown</a>
+			<a class="cta secondary" id="salary">Salary Decomposed</a>
 			<input type="text" id="salary_amount" name="salary_amount" value="$" placeholder="ie. 10000" style="text-align:left">
-			<input type="submit" id="salary_submit" name="salary_submit" class="cta_red:hover" value="VIEW BREAKDOWN">
+			<input type="submit" id="salary_submit" name="salary_submit" value="VIEW BREAKDOWN">
 		</div>
 	</div><!--  intro_wrapper -->
 	<div class="intro_background">
@@ -101,18 +101,26 @@
 </body>
 
 <script>
-
 	/* SALARY INSERTION*/
 	$('#salary_amount').hide();
 	$('#salary_submit').hide();
 	$('#salary').on("click", function(){
-		$('#salary').fadeOut("fast");
-		$('#breakdown').fadeOut("fast", function(){
-			$('#salary_amount').fadeIn("medium");
+		$('#breakdown').text("<").addClass("shrinkPadding");
+		$('#salary_amount').css({
+			"padding-left":"25px"
+		});
+		$('#salary').fadeOut("fast", function(){
+			$('#salary_amount').fadeIn("slow");
 			$('#salary_submit').fadeIn("medium");
-		})
-	})
-
+		});
+		$('#breakdown').on("click", function(){
+			$('#salary_amount').fadeOut("medium");
+			$('#salary_submit').fadeOut("medium", function(){
+				$('#breakdown').text("VIEW BREAKDOWN").removeClass("shrinkPadding");
+				$('#salary').fadeIn();
+			});
+		});
+	});
 
 	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
