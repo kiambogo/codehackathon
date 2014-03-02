@@ -29,7 +29,7 @@
 		<div class="timeline">
 		</div>
 		<div class="content">
-			<div id="divider"></div>
+			<div class="gradient" id="divider"></div>
 			<img id="circle_flag" src="img/circle_flag.png">
 			<h2>In 2012, the government of Canada received</h2>
 			<h2><span>$324,797,234,937</span> in tax.</h2>
@@ -121,23 +121,36 @@
 			});
 		});
 	});
-	
+
 	/* smooth scrolling*/
-	$(document).ready(function() {    
-	  $('a[href*="#"]').on('click.smoothscroll',function(e) {
-	    e.preventDefault();
-	    var target = this.hash;
-	    goScroll(target);
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top - 55
+	        }, 1000);
+	        return false;
+	      }
+	    }
 	  });
 	});
-	function goScroll(target){
-	  $target = $(target);
-	  $('html, body').stop().animate({
-	    'scrollTop': $target.offset().top - 25
-	  }, 500, function () {
-	    window.location.hash = target;
-	  });
-	}
+
+	/* pin sidebar */
+	$(window).scroll(function(){
+		$window = $(window);
+		if ($window.scrollTop() > 1325){
+			$('.category_navbar').addClass("fixSidebar");
+			$('#logo_png').addClass("fixLogo");
+
+		}
+		else{
+			$('.category_navbar').removeClass("fixSidebar");
+			$('#logo_png').removeClass("fixLogo");
+		}
+	});
 
 	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
