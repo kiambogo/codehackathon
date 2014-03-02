@@ -16,6 +16,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-resource.min.js">
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.min.js">
 </script>
 </head>
@@ -49,8 +50,22 @@
 		  <label><input type="radio" name="mode" value="size"> Size</label>
 		  <label><input type="radio" name="mode" value="count" checked> Count</label>
 
-		  <div id="percentage">helloWorld</div>
+		  
 		</form>
+		<div class="data_description">
+			<div class="data_percentage" style="display:none">
+				<div id="percentage">helloWorld</div>
+				<p>Value</p>
+				<div id="value">Value</div>
+			</div>
+			<div id="data_text">
+				<h2>jelly-o oat cake chocolate</h2>
+				<p>Cheesecake cheesecake pastry gummies croissant donut. Oat cake biscuit cookie powder. Gingerbread liquorice bear claw chocolate soufflé. Oat cake powder cotton candy pastry ice cream caramels soufflé apple pie carrot cake. Lemon drops cookie applicake. Bear claw chocolate cake fruitcake. Donut ice cream chupa chups cotton candy powder applicake lemon drops jelly. Icing muffin chupa chups unerdwear.com ice cream wafer chupa chups gingerbread jelly beans. Tootsie roll bear claw halvah.</p>
+				<a class="cta_small cta_red">More information</a>
+				<a class="cta_small" id="back">Go Back</a>
+
+			</div>
+		</div>
 		<script>
 			var width = 1200,
 			    height = 700,
@@ -67,30 +82,29 @@
 			    .sort(null)
 			    .size([2 * Math.PI, radius * radius])
 			    .value(function(d) { return 1; });
-
+			var temp = 0;
 			var arc = d3.svg.arc()
 			    .startAngle(function(d) { return d.x; })
 			    .endAngle(function(d) { return d.x + d.dx; })
 			    .innerRadius(function(d) { return Math.sqrt(d.y); })
 			    .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
 
-			   
 			// Total size of all segments; we set this later, after loading the data.
 			var totalSize = 0; 
 
 			//function jsonImport(){
-				d3.json('flare.json', function(error, root) {
-				  var path = svg.datum(root).selectAll("path")
-				      .data(partition.nodes)
-				    .enter().append("path")
-				      .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-				      .attr("d", arc)
-				      .style("stroke", "#fff")
-				      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-				      .style("fill-rule", "evenodd")
-				      .each(stash)
-				      .on("mouseover", mouseover)
-				      .on("click", onClick);
+			d3.json('flare.json', function(error, root) {
+			  var path = svg.datum(root).selectAll("path")
+			      .data(partition.nodes)
+			    .enter().append("path")
+			      .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
+			      .attr("d", arc)
+			      .style("stroke", "#fff")
+			      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+			      .style("fill-rule", "evenodd")
+			      .each(stash)
+			      .on("mouseover", mouseover)
+			      .on("click", onClick);
 			//  }
 			  //jsonImport();
 
@@ -128,13 +142,13 @@
 
 			function onClick(d){
 				//alert("clicked");
+				d3.selectAll("path").on("mouseover", null);
 				d3.selectAll("path")
 					.transition()
 					.attr("transform", "translate("+(-500)+"," + 0 + ")"+"rotate(150)")
-					.duration(2000);
-			
+					.duration(1500);
+				$("#data_text").delay(1500).fadeIn();
 			}
-
 
 			function mouseover(d) {
 				  var sequenceArray = getAncestors(d);
@@ -144,6 +158,7 @@
 			      	.style("opacity", 0.3);
 
 		      		var percentage = (100 * d.value / totalSize).toPrecision(3);
+		      		var value = d.value * 100;
 					var percentageString = percentage + "%";
 				 	 if (percentage < 0.1) {
 				 	   percentageString = "< 0.1%";
@@ -151,6 +166,8 @@
 
 			  		d3.select("#percentage")
 			   		   .text(percentageString);
+			   		   d3.select("#value")
+			   		   .text(value);
 
 			      // Then highlight only those that are an ancestor of the current segment.
 				  svg.selectAll("path")
@@ -162,14 +179,26 @@
 				}
 			function mouseleave(d) {
 			  // Deactivate all segments during transition.
-			  d3.selectAll("path").on("mouseover", null);
 			  d3.selectAll("path")
 		      .transition()
-		      .duration(1000)
+		      .duration(1500)
 		      .style("opacity", 1)
 		      .each("end", function() {
 	              d3.select(this).on("mouseover", mouseover);
 	           });
+			}
+			function rotateReverse(){
+			    d3.selectAll("path").on("mouseover", null);
+				d3.selectAll("path")
+					.transition()
+					.attr("transform", "translate("+(0)+"," + (-50) + ")"+"rotate(-150)")
+					.duration(1000)
+					.each("end", function() {
+		               d3.select(this).on("mouseover", mouseover);
+		            });
+
+			 	d3.selectAll("path").on("mouseover", null);
+				$('#data_text').fadeOut();
 			}
 
 			// Given a node in a partition layout, return an array of all of its ancestor
@@ -183,9 +212,12 @@
 			  }
 			  return path;
 			}
-			  
 
-			d3.select(".d3_graphic").on("mouseleave", mouseleave);
+
+			  
+			d3.select("#back").on("click", rotateReverse);
+
+			d3.select("svg g").on("mouseleave", mouseleave);
 			
 			d3.select(self.frameElement).style("height", height + "px");
 		</script>
