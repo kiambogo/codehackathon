@@ -608,6 +608,7 @@ body .wrapper .wrapper_item .userhandle {
 body .misc_wrapper {
   background: rgba(248, 248, 240, 0.54);
   padding-top: 60px;
+  margin-top: 75px;
   z-index: 5;
 }
 body .misc_wrapper #circle_bubble {
