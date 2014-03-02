@@ -513,6 +513,14 @@ body .d3_graphic .data_description {
 body .d3_graphic .data_description #data_text {
   display: block;
 }
+body .d3_graphic .data_description #percentage {
+  display: inline-block;
+  font-size: 40px;
+}
+body .d3_graphic .data_description #sector_name {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
 body .d3_graphic .data_percentage {
   display: none;
   text-align: center;
