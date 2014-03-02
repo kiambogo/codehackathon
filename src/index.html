@@ -152,10 +152,14 @@
 		}
 	});
 
+
+
 	var margin = {top: 270, right: 400, bottom: 270, left: 300},
 	    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
 
-	var hue = d3.scale.category10();
+	var hue = d3.scale.category20b();
+	console.log("Hue - " + d3.scale.category20b() );
+	//var hue = ["pink","blue"];
 
 	var luminance = d3.scale.sqrt()
 	    .domain([0, 1e6])
@@ -178,7 +182,23 @@
 	    .innerRadius(function(d) { return radius / 3 * d.depth; })
 	    .outerRadius(function(d) { return radius / 3 * (d.depth + 1) - 1; });
 
-	d3.json("new2.json", function(error, root) {
+    // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
+	var b = {
+	  w: 75, h: 30, s: 3, t: 10
+	};
+
+	// Mapping of step names to colors.
+	var colors = {
+	  "home": "#5687d1",
+	  "product": "#7b615c",
+	  "search": "#de783b",
+	  "account": "#6ab975",
+	  "other": "#a173d1",
+	  "end": "#bbbbbb"
+	};
+
+
+	d3.json("new3micro.json", function(error, root) {
 
 	  // Compute the initial layout on the entire tree to sum sizes.
 	  // Also compute the full name and fill color for each node,
@@ -219,6 +239,8 @@
 		 // Get total size of the tree = value of root node from partition.
 		  totalSize = path.node().__data__.value;
 
+		 // initializeBreadcrumbTrail();
+
 		// Given a node in a partition layout, return an array of all of its ancestor
 		// nodes, highest first, but excluding the root.
 		function getAncestors(node) {
@@ -250,6 +272,9 @@
    		   d3.select("#sector_name")
 	   		   .text(sector_name);
 
+		     updateBreadcrumbs(sequenceArray, percentageString);
+
+
 	      // Then highlight only those that are an ancestor of the current segment.
 		  svg.selectAll("path")
 		      .filter(function(node) {
@@ -258,6 +283,7 @@
 		      .style("opacity", 1.0)
 		      .transition();
 		}
+		d3.selectAll("path").on("mouseover", mouseover);
 		function mouseleave(d) {
 		  // Deactivate all segments during transition.
 		  d3.selectAll("path")
@@ -270,12 +296,15 @@
 		}
 
 	  function zoomIn(p) {
+	  	//d3.selectAll("path").on("mouseover", null);
 	    if (p.depth > 1) p = p.parent;
 	    if (!p.children) return;
 	    zoom(p, p);
+
 	  }
 
 	  function zoomOut(p) {
+	  	//d3.selectAll("path").on("mouseover", null);
 	    if (!p.parent) return;
 	    zoom(p.parent, p);
 	  }
@@ -323,7 +352,8 @@
 	          .style("fill-opacity", function(d) { return d.depth === 2 - (root === p) ? 1 : 0; })
 	          .style("fill", function(d) { return d.fill; })
 	          .on("click", zoomIn)
-	          .each(function(d) { this._current = enterArc(d); });
+	          .each(function(d) { this._current = enterArc(d); })
+	          .on("mouseover", mouseover);
 
 	      path.transition()
 	          .style("fill-opacity", 1)
@@ -358,6 +388,80 @@
 	  return {depth: d.depth, x: d.x, dx: d.dx};
 	}
 
+	
+
+
+	function initializeBreadcrumbTrail() {
+	  // Add the svg area.
+	  var trail = d3.select(".d3_graphic").append("svg:svg")
+	      .attr("width", 120)
+	      .attr("height", 50)
+	      .attr("id", "trail");
+	  // Add the label at the end, for the percentage.
+	  trail.append("svg:text")
+	    .attr("id", "endlabel")
+	    .style("fill", "blue");
+	}
+
+// Generate a string that describes the points of a breadcrumb polygon.
+function breadcrumbPoints(d, i) {
+  var points = [];
+  points.push("0,0");
+  points.push(b.w + ",0");
+  points.push(b.w + b.t + "," + (b.h / 2));
+  points.push(b.w + "," + b.h);
+  points.push("0," + b.h);
+  if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
+    points.push(b.t + "," + (b.h / 2));
+  }
+  return points.join(" ");
+}
+
+// Update the breadcrumb trail to show the current sequence and percentage.
+function updateBreadcrumbs(nodeArray, percentageString) {
+
+  // Data join; key function combines name and depth (= position in sequence).
+  var g = d3.select("#trail")
+      .selectAll("g")
+      .data(nodeArray, function(d) { return d.name + d.depth; });
+
+  // Add breadcrumb and label for entering nodes.
+  var entering = g.enter().append("svg:g");
+
+  entering.append("svg:polygon")
+      .attr("points", breadcrumbPoints)
+      //.style("fill", function(d) { return colors[d.name]; });
+      .style("fill", function(d) { return d.fill; });
+
+  entering.append("svg:text")
+      .attr("x", (b.w + b.t) / 2)
+      .attr("y", b.h / 2)
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { return d.name; });
+
+  // Set position for entering and updating nodes.
+  g.attr("transform", function(d, i) {
+    return "translate(" + i * (b.w + b.s) + ", 0)";
+  });
+
+  // Remove exiting nodes.
+  g.exit().remove();
+
+  // Now move and update the percentage at the end.
+  d3.select("#trail").select("#endlabel")
+      .attr("x", (nodeArray.length + 0.5) * (b.w + b.s))
+      .attr("y", b.h / 2)
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "middle")
+      .text(percentageString);
+
+  // Make the breadcrumb trail visible, if it's hidden.
+  d3.select("#trail")
+      .style("visibility", "");
+
+}
+	
 	d3.select(self.frameElement).style("height", margin.top + margin.bottom + "px");
 
 </script>
