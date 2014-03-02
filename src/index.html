@@ -101,7 +101,7 @@
 
 <script>
 	/* SALARY INSERTION*/
-	var tax = 3840234827387;
+	var tax = 745518134170;
 	$('#salary_amount').hide();
 	$('#salary_submit').hide();
 	$('#salary').on("click", function(){
@@ -127,8 +127,13 @@
 		$("#salary_submit").on("click", function() {
 			$("#salary_title").fadeIn();
 			income = $('#salary_amount').val().substring(1,$('#salary_amount').val().length);
-			income -= 11138;
+
 			tax = 0;
+			if (income < 11138){
+				return;
+			}
+
+			income -= 11138;
 			if (income < 43953 && income > 0) {
 				tax += 0.15 * income;
 			}
@@ -354,8 +359,7 @@
       		if ($('#sector_name').text().length > 10){
 				//console.log('toolong');
 			}
-			var percentageString = "$" + roundToTwo(((tax/3840234827387) * d.value));	
-			$(".data_percentage").fadeIn();
+			var percentageString = "$" + (roundToTwo(((tax/745518134170) * d.value))).toLocaleString();			$(".data_percentage").fadeIn();
 	  		d3.select("#percentage")
 	   		   .text(percentageString)
 	   		   .transition()
