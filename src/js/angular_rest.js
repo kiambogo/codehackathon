@@ -8,13 +8,11 @@ app.service('es', function (esFactory) {
 app.controller("SearchController", ["$window", "$scope", "es", function($window, $scope, es) {
 	$scope.foo = 'bar';
 
-	$scope.doSomething = function() {
-		var data_new = es.search({
+	$scope.doSomething = function(response) {
+		es.search({
 			index: 'data',
 			type: 'MinistryData',
 			limit: 5
 		})
-		$scope.foo = data_new;
-		console.log('hi', es);
 	};
 }]);
