@@ -162,6 +162,12 @@ body{
 		font-weight: bold;
 		font-size: 60px;
 	}
+	.truncate {
+	  width: 600px;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	}
 	input{
 		display: none;
 		margin: 40px 10px 20px 0px;
@@ -321,6 +327,8 @@ body{
 			#sector_name{
 				font-size: 40px;
 				margin-bottom: 10px;
+				max-height: 100px;
+				overflow-y: scroll;
 			}
 		}//data_description{
 		.data_percentage{

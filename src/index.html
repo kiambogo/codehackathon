@@ -118,6 +118,14 @@
 		});
 	});
 
+	/* TRUNCATE TAX TITLE*/
+	function truncate(){
+		if ($('#sector_name').text().length > 10){
+			console.log('toolong');
+		}
+	}
+
+
 	/* smooth scrolling*/
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
@@ -238,7 +246,7 @@
 
     // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 	var b = {
-	  w: 75, h: 30, s: 3, t: 10
+	  w: 75, h: 30, s: 10, t: 40
 	};
 
 	// Mapping of step names to colors.
@@ -315,6 +323,10 @@
 
       		var percentage = (100 * d.value / totalSize).toPrecision(3);
       		var sector_name = d.name;
+      		if ($('#sector_name').text().length > 10){
+				console.log('toolong');
+			}
+			console.log("haii");
 			var percentageString = percentage + "%";
 		 	 if (percentage < 0.1) {
 		 	   percentageString = "< 0.1%";
@@ -445,11 +457,11 @@
 
 	
 
-
+/* BREADCRUMB*/
 	function initializeBreadcrumbTrail() {
 	  // Add the svg area.
 	  var trail = d3.select(".d3_graphic").append("svg:svg")
-	      .attr("width", 120)
+	      .attr("width", 220)
 	      .attr("height", 50)
 	      .attr("id", "trail");
 	  // Add the label at the end, for the percentage.
@@ -483,15 +495,15 @@ function updateBreadcrumbs(nodeArray, percentageString) {
   // Add breadcrumb and label for entering nodes.
   var entering = g.enter().append("svg:g");
 
-  entering.append("svg:polygon")
-      .attr("points", breadcrumbPoints)
+  //entering.append("svg:polygon")
+    //  .attr("points", breadcrumbPoints)
       //.style("fill", function(d) { return colors[d.name]; });
-      .style("fill", function(d) { return d.fill; });
+      //.style("fill", function(d) { return d.fill; });
 
   entering.append("svg:text")
-      .attr("x", (b.w + b.t) / 2)
-      .attr("y", b.h / 2)
-      .attr("dy", "0.35em")
+      .attr("x", (b.w + b.t))
+      .attr("y", b.h+2)
+      .attr("dy", "0.5em")
       .attr("text-anchor", "middle")
       .text(function(d) { return d.name; });
 

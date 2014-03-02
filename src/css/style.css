@@ -358,6 +358,12 @@ body .timer {
   font-weight: bold;
   font-size: 60px;
 }
+body .truncate {
+  width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 body input {
   display: none;
   margin: 40px 10px 20px 0px;
@@ -527,6 +533,8 @@ body .d3_graphic .data_description #percentage {
 body .d3_graphic .data_description #sector_name {
   font-size: 40px;
   margin-bottom: 10px;
+  max-height: 100px;
+  overflow-y: scroll;
 }
 body .d3_graphic .data_percentage {
   display: none;
