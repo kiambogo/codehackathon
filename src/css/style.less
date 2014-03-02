@@ -344,7 +344,7 @@ body{
 	}//d3_graphic
 	.wrapper{
 		position: relative;
-		height: 500px;
+		//height: 500px;
 		z-index: 10;
 		margin-top: 200px;
 		.category_navbar{
@@ -354,12 +354,13 @@ body{
 			text-transform: uppercase;
 			font-weight: 600;
 			letter-spacing: 1px;
+			z-index: 50;
 			li{
 				margin: 10px 0px;
 				a{
 					font-size: 14px;
 					font-weight: 300;
-					border: 2px solid white;
+					border: 2px solid transparent;
 					padding: 4px 8px;
 					border-radius: 4px;
 					min-width: 150px;
@@ -376,12 +377,12 @@ body{
 				}
 			}//active
 		}//category_navbar
-		.category_item{
+		.wrapper_item{
 			width: 58%;
 			display: inline-block;
 			float: right;
 			clear: right;
-			margin: 0px 10px 150px;
+			margin: 0px 10px 110px;
 			padding: 0 10%;
 			h2{
 				text-transform: uppercase;
@@ -397,10 +398,19 @@ body{
 				padding-left: 0px;
 				padding-right: 0px;
 				min-width: 150px;
-			}
-			
+			}//userhandle
 		}//category_item
+
 	}//category_wrapper
-
-
+	.misc_wrapper{
+		background: rgba(248, 248, 240, 0.54);
+		padding-top: 60px;
+		z-index: 5;
+		#circle_bubble{
+			background: rgb(248, 248, 240);
+		}
+	}//misc_wrapper
+	.category_wrapper{
+		z-index: 10;
+	}
 }//body

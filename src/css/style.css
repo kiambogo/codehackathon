@@ -548,7 +548,6 @@ body .d3_graphic .data_percentage {
 }
 body .wrapper {
   position: relative;
-  height: 500px;
   z-index: 10;
   margin-top: 200px;
 }
@@ -559,6 +558,7 @@ body .wrapper .category_navbar {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
+  z-index: 50;
 }
 body .wrapper .category_navbar li {
   margin: 10px 0px;
@@ -566,7 +566,7 @@ body .wrapper .category_navbar li {
 body .wrapper .category_navbar li a {
   font-size: 14px;
   font-weight: 300;
-  border: 2px solid white;
+  border: 2px solid transparent;
   padding: 4px 8px;
   border-radius: 4px;
   min-width: 150px;
@@ -582,26 +582,37 @@ body .wrapper .category_navbar li a:hover {
 body .wrapper .category_navbar .active a {
   font-weight: 500;
 }
-body .wrapper .category_item {
+body .wrapper .wrapper_item {
   width: 58%;
   display: inline-block;
   float: right;
   clear: right;
-  margin: 0px 10px 150px;
+  margin: 0px 10px 110px;
   padding: 0 10%;
 }
-body .wrapper .category_item h2 {
+body .wrapper .wrapper_item h2 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 25px;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-body .wrapper .category_item p {
+body .wrapper .wrapper_item p {
   line-height: 21px;
 }
-body .wrapper .category_item .userhandle {
+body .wrapper .wrapper_item .userhandle {
   padding-left: 0px;
   padding-right: 0px;
   min-width: 150px;
+}
+body .misc_wrapper {
+  background: rgba(248, 248, 240, 0.54);
+  padding-top: 60px;
+  z-index: 5;
+}
+body .misc_wrapper #circle_bubble {
+  background: #f8f8f0;
+}
+body .category_wrapper {
+  z-index: 10;
 }
